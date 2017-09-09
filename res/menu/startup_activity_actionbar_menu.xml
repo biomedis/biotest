@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Profiles"
+            android:id="@+id/actionProfiles"
+            android:showAsAction="ifRoom"
+            />
+    <item android:title="Articles"
+          android:id="@+id/actionTexts"
+          android:showAsAction="ifRoom"
+            />
+    <item android:title="Manual"
+          android:id="@+id/actionGuide"
+          android:showAsAction="ifRoom"
+            />
+
+
+
+
+    <item android:title="Measurement from a file"
+          android:id="@+id/actionDebugMeasure"
+          android:visible="false"
+
+            />
+    <item android:title="Options"
+          android:id="@+id/options"
+          android:showAsAction="collapseActionView"
+
+            />
+</menu>

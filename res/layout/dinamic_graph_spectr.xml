@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="15dp" android:background="@drawable/content_panel_background">
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/titleView"  style="@style/BiotestTextAppearance.Large" android:layout_marginBottom="-30dp"  android:paddingLeft="5dp" android:layout_marginTop="4dp"/>
+
+    <view android:layout_width="match_parent"
+          android:layout_height="250dp"
+          class="ru.biomedis.biotest.graph.MultiLineImpl.MultiLineDouble"
+          android:id="@+id/multiLine"
+          android:layout_marginBottom="10dp"
+            android:layout_marginLeft="2dp"/>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"  android:layout_height="wrap_content"
+                  android:gravity="center" android:layout_marginLeft="15dp">
+             <View android:layout_width="10dp"  android:layout_height="10dp"  android:layout_marginRight="7dp" android:background="@color/lf"/>
+             <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/low_freq" />
+        </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"  android:layout_height="wrap_content"
+                  android:gravity="center" android:layout_marginLeft="15dp">
+        <View android:layout_width="10dp"  android:layout_height="10dp"  android:layout_marginRight="7dp" android:background="@color/vlf"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"  android:text="@string/very_low_freq" />
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"  android:layout_height="wrap_content"
+                  android:gravity="center" android:layout_marginLeft="15dp" android:layout_marginBottom="5dp">
+        <View android:layout_width="10dp"  android:layout_height="10dp"  android:layout_marginRight="7dp" android:background="@color/hf"
+                />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"  android:text="@string/hi_freq"
+                   android:autoText="false"/>
+    </LinearLayout>
+</LinearLayout>

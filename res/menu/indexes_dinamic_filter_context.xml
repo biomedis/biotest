@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Today"
+          android:id="@+id/today"
+          android:showAsAction="always"
+            />
+    <item android:title="For a three last days"
+          android:id="@+id/threeday"
+          android:showAsAction="always"
+            />
+    <item android:title="For a last week"
+          android:id="@+id/week"
+          android:showAsAction="always"
+            />
+    <item android:title="For a  last tow weeks"
+          android:id="@+id/twoweek"
+          android:showAsAction="always"
+            />
+    <item android:title="For a last month"
+          android:id="@+id/month"
+          android:showAsAction="always"
+            />
+    <item android:title="For a last three month"
+          android:id="@+id/threemonth"
+          android:showAsAction="always"
+            />
+    <item android:title="For a last six month"
+          android:id="@+id/sixmonth"
+          android:showAsAction="always"
+            />
+    <item android:title="For a last year"
+          android:id="@+id/year"
+          android:showAsAction="always"
+            />
+
+    <item android:title="For the selected period"
+          android:id="@+id/custominterval"
+          android:showAsAction="always"
+            />
+</menu>

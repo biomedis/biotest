@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="delete">Διαγραφή</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="create">Δημιουργία</string>
+    <string name="yes">Ναι</string>
+    <string name="no">Όχι</string>
+    <string name="save">Αποθήκευση</string>
+    <string name="view">Εμφάνιση</string>
+    <string name="close">Κλείσιμο</string>
+    <string name="start">Έναρξη</string>
+    <string name="set">Έκχωρήσετε</string>
+
+    <!-- Сплеш скрин -->
+    <string name="copyrite"></string>
+    <string name="app_name">BiotestM 2.1</string>
+    <string name="logo_desc_text">Λογότυπος Biomedis</string>
+    <string name="programm_name">BiotestM 2.1</string>
+    <string name="biomedis_phone">tel:8-495-646-88-26</string>
+
+
+
+
+
+
+    <!-- Слайд меню -->
+    <string name="sm_measure">Μέτρηση</string>
+    <string name="sm_rr">R-R</string>
+    <string name="sm_hist">Ραβδογράφημα</string>
+    <string name="sm_spectrum">Φάσμα</string>
+    <string name="sm_indexes">Δείκτες</string>
+    <string name="sm_meridians">Μεσημβρινοί</string>
+    <string name="sm_diagnose">Διάγνωση</string>
+
+    <!-- Фрагмент measure-->
+
+    <string name="fm_start">Έναρξη</string>
+    <string name="fm_stop">Παύση</string>
+    <string name="fm_update_usb">Ενημέρωση κατάστασης αισθητήρα USB</string>
+    <string name="fm_low_signal">Αδύναμο σήμα</string>
+    <string name="fm_biggest_signal">Πολύ δυνατό σήμα</string>
+    <string name="fm_last_time">Εναπομείνας χρόνος:</string>
+
+    <!-- Диалог профили-->
+    <string name="dp_profile">Προφίλ:</string>
+    <string name="dp_title">Επιλογή ενεργού προφίλ</string>
+    <string name="dp_desc">Επιλέξτε ενεργό προφίλ. </string>
+    <string name="dp_act">Ενεργό προφίλ - </string>
+    <string name="dp_profile_not_set">Δεν έχει εγκατασταθεί προφίλ</string>
+    <string name="error_select_profile">Σφάλμα στην επιλογή προφίλ!</string>
+    <string name="error_set_profile">Αποτυχία δημιουργίας ενεργού προφίλ</string>
+
+    <!-- Создание профиля диалог-->
+    <string name="cp_title">Δημιουργία προφίλ</string>
+    <string name="cp_name">Προφίλ:</string>
+    <string name="cp_comment">Σχόλιο:</string>
+    <string name="cp_create_btn">Δημιουργήστε προφίλ</string>
+    <string name="error_create_profile">Σφάλμα κατά τη δημιουργία προφίλ!</string>
+    <string name="success_created_profile">Το προφίλ δημιουργήθηκε επιτυχώς!</string>
+    <string name="need_fill_all_fields">Συμπληρώστε όλα τα πεδία!</string>
+
+
+    <!-- редактирование профиля диалог-->
+    <string name="ep_title">Επεξεργασία προφίλ</string>
+    <string name="ep_name">Προφίλ:</string>
+    <string name="ep_comment">Σχόλιο:</string>
+    <string name="ep_create_btn">Αποθήκευση </string>
+    <string name="error_get_profile">Σφάλμα λήψης προφίλ!</string>
+    <string name="succes_saved_profile">Το προφίλ αποθηκεύτηκε επιτυχώς!</string>
+    <string name="error_saved_profile">Αποτυχία αποθήκευσης προφίλ!</string>
+    <string name="need_fill_name_profile">Συμπληρώστε το όνομα του προφίλ!</string>
+
+
+    <!-- Окно профили-->
+    <string name="ap_list_profiles">Λίστα προφίλ:</string>
+    <string name="ap_list_measures">Λίστα μετρήσεων:</string>
+    <string name="ap_data_less">Δεν υπάρχουν αρκετά δεδομένα για τη δημιουργία δυναμικής των δεικτών! Απαιτούνται ακόμη δύο τουλάχιστον μετρήσεις.
+    </string>
+    <string name="ap_delete_profile_question">Διαγραφή προφίλ;</string>
+
+    <string name="ap_delete_measure_question">Διαγραφή μέτρησης;</string>
+    <string name="ap_delete_measure_description">Η επιλεγμένη μέτρηση θα διαγραφεί μαζί με τα δεδομένα!</string>
+    <string name="ap_measure_note">Σημείωση</string>
+    <string name="error_create_intent_to_call_measure">Αποτυχία δημιουργίας πρόθεσης για την εκκίνηση MeasureDataActivity.class </string>
+    <string name="ap_profile_not_selected">Δεν επιλέχθκε προφίλ!</string>
+    <string name="ap_delete_profile_description">Όλες οι μετρήσεις και τα δεδομένα θα χαθούν!</string>
+    <string name="ap_measure_success_delete">Οι μετρήσεις διαγράφηκαν επιτυχώς!</string>
+    <string name="ap_delete_error">Σφάλμα κατά τη διαγραφή!</string>
+
+
+    <!-- редактирование изменения диалог-->
+    <string name="em_note">Σημείωση για τη μέτρηση:</string>
+    <string name="em_title">Επεξεργασία των μετρήσεων</string>
+    <string name="em_error_get_measure">Σφάλμα των μετρήσεων!</string>
+    <string name="em_measure_success_updated">Η μέτρηση ανανεώθηκε με επιτυχία!</string>
+    <string name="em_error_updated_measure">Σφάλμα κατά την ανανέωση της μέτρησης!</string>
+
+
+    <!-- Динамика -->
+    <string name="id_dm">Εύρος ημερομηνιών:</string>
+    <string name="id_is">Κεντροποίηση ελέγχου του ρυθμού</string>
+    <string name="id_bak">LHC</string>
+    <string name="id_tp">"Συνολική ενέργεια "</string>
+    <string name="id_in">Δείκτης έντασης</string>
+    <string name="id_hr">Μέση συχνήτητα του καρδιακού ρυθμού</string>
+    <string name="id_spectr_param">Παράμετροι φάσματος</string>
+    <string name="id_less_data">Δεν υπάρχουν αρκετά δεδομένα για τη δημιουργία της δυναμικής των δεικτών!</string>
+
+
+
+
+
+
+    <!-- Диалог расчета -->
+    <string name="pcd_title">Υπολογισμός δεικτών σφυγμομέτρησης</string>
+    <string name="sp_desc">Γίνεται υπολογισμός</string>
+
+
+    <!-- Главное окно -->
+    <string name="ma_select_act_profile">Επιλογή ενεργού προφίλ</string>
+    <string name="ma_descr_select_active_profile">Επιλέξτε ενεργό προφίλ</string>
+    <string name="ma_need_selected_active_profile">Πρέπει να επιλέξετε ενεργό προφίλ!</string>
+    <string name="ma_close_app_title">Κλείσιμο εφαρμογής;</string>
+    <string name="ma_close_app_desc">Οι αλλαγές δεν θα αποθηκευτούν!</string>
+    <string name="ma_create_profile_title">Επιθυμείτε τη δημιουργία μέτρησης από το επιλεγμένο αρχείο;</string>
+    <string name="ma_path_to_file">Διαδρομή προς φάκελο \n</string>
+    <string name="ma_error_load_data_from_file">Αποτυχία λήψης των δεδομένων των μετρήσεων!</string>
+    <string name="ma_measure_success">Η μέτρηση ολοκληρώθηκε. Προετοιμάζονται τα αποτελέσματα.</string>
+    <string name="ma_prepare_data_to_view">Προετοιμασία αποτελεσμάτων για προβολή</string>
+    <string name="ma_canceled_measure">Η μέτρηση ακυρώθηκε!</string>
+    <string name="ma_measure_ready">Η μέτρηση ετοιμάστηκε</string>
+    <string name="ma_data_save">Τα δεδομένα αποθηκεύτηκαν!!!</string>
+    <string name="ma_error_save_data">Σφάλμα κατά την αποθήκευση των δεδομένων!!!</string>
+    <string name="ma_error_save2">Η μέτρηση πραγματοποιήθηκε με σφάλμα, τα δεδομένα δεν αποθηκεύτηκαν!!!</string>
+    <string name="ma_error_save_3">Σφάλμα κατά την εγγραφή των δεδομένων, δεν υπάρχει ενεργό προφίλ ή σειρά δεδομένων. Αν το πρόβλημα επανεμφανιστεί επικοινωνήστε με το κέντρο υποστήριξης.</string>
+    <string name="id_list_params">Κατάλαγος των δεικτών για απεικόνιση</string>
+
+
+
+
+
+    <string name="txt_1" >Περιγράφει τις εργασίες με προφίλ, π.χ. δημιουργία κλπ</string>
+    <string name="usb_not_installed">Η συσκευή δεν είναι συνδεδεμένη!</string>
+    <string name="ma_cancel_measure_question">Ακύρωση μέτρησης;</string>
+    <string name="ma_start_measure">Έναρξη μέτρησης;</string>
+    <string name="ma_start_measure_description"><![CDATA[Για πρόσβαση στις προηγούμενες μετρήσεις(Προφίλ -> Προφίλ )]]></string>
+    <string name="ma_not_nistalled_sensor_q">Ελέγξτε τη σύνδεση του αισθητήρα παλμών και ξαναπροσπαθήστε!</string>
+    <string name="pmd_sensor_from_finger">Μπορείτε να αποσυνδέσετε τον αισθητήρα παλμών.</string>
+    <string name="pa_view_measure_canceled">Η προβολή των αποτελεσμάτων ακυρώθηκε!</string>
+    <string name="pa_cacl_completed">Ο υπολογισμός των δεδομένων ολοκληρώθηκε</string>
+    <string name="g_arraygraph_labelx">Αριθμός R-R διαστήματος</string>
+    <string name="g_arraygraph_label_y">R-R διάστημα, x10мс</string>
+    <string name="g_histgraph_labelx">R-R διαστήματα, x10мс</string>
+    <string name="g_histgraph_labely">Συχνότητα εμφάνισης</string>
+    <string name="g_spectrgraph_labelx">Ένταση, 100/мс2</string>
+    <string name="g_spectrgraph_labely">Συχνότητα, Hz</string>
+    <string name="g_time">Χρόνος</string>
+    <string name="g_bak_dinamic">Διάγραμα μέτρησης LHC</string>
+    <string name="g_tp">Διάγραμμα μέτρησης επιπέδου συνολικής ενέργειας</string>
+    <string name="g_hr">Διάγραμμα μέτρησης καρδιακού ρυθμού</string>
+    <string name="g_in">Διάγραμμα μέτρησης δεικτών έντασης</string>
+    <string name="g_si">Διάγραμμα μέτρησης δεικτών συγκέντρωσης ελέγχου του ρυθμού</string>
+    <string name="g_spec">Διάγραμμα μέτρησης φασματικών συνιστωσών R-R διαστημάτων</string>
+
+
+    <string name="data_picker_title">Ρύθμιση ημερομηνίας </string>
+    <string name="filemanager_error">Απουσία κατάλληλου προγράμματος για την επιλογή αρχείου</string>
+    <string name="sm_scaterogramm">Συσχέτιση ρυθμοδιαγράμματος</string>
+    <string name="dynamics_calc_dlg_title">Υπολογισμός της δυναμικής των δεικτών</string>
+    <string name="dynamic_param_not_selected_toast_message">Πρέπει να επιλέξετε τις παραμέτρους(QUERY PARAMETERS)
+    </string>
+
+
+    <string name="sdcard_not_avaliable">Η κάρτα μνήμης δεν είναι διαθέσιμη </string>
+    <string name="error_save_to_sd">Αδυναμία εγγραφής δεδομένων στην κάρτα μνήμης</string>
+    <string name="options_title">Επιλογές</string>
+    <string name="default_t">Προεπιλογή</string>
+    <string name="option_low_porog_descr">Το κατώτερο όριο πλάτους παλμού:</string>
+    <string name="select_file">Επιλογή αρχείου</string>
+    <string name="select_file_description">Επιλέξτε αρχείο για μέτρηση.</string>
+    <string name="average_heart_rate">Μέσος καρδιακός ρυθμός:</string>
+
+    <string name="IN_abbr">IN =</string>
+    <string name="IS_abbr">IC =</string>
+    <string name="BAK_abbr">BAK =</string>
+    <string name="BE_abbr">BE =</string>
+    <string name="next_full">Διαβάστε περισσότερα...</string>
+    <string name="low_freq">Οι χαμηλές συχνότητες LF</string>
+    <string name="very_low_freq">πολύ χαμηλές συχνότητες VLF</string>
+    <string name="hi_freq">Γεια συχνότητες HF</string>
+    <string name="profile_not_find">Το προφίλ δεν είναι επιλεγμένο!</string>
+
+
+</resources>

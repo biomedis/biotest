@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:fillViewport="true"
+        >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" android:padding="15dp" >
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tp_title"
+             android:textStyle="bold" style="@style/BiotestTextAppearance.Large"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tp_small"
+            style="@style/BiotestTextAppearanceListItem"
+           />
+
+    <LinearLayout
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"  >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TP = "
+                />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/tp_index"
+                />
+
+
+    </LinearLayout>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/tp_diagnose"
+                style="@style/BiotestTextAppearanceListItem"
+                />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_full"
+            android:id="@+id/tp_full"  android:textStyle="italic"
+            android:textIsSelectable="true"/>
+
+
+
+
+
+
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mr_title"
+             android:textStyle="bold"  style="@style/BiotestTextAppearance.Large" android:textIsSelectable="false"
+            android:layout_marginTop="10dp"/>
+
+
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mr_low"
+                           android:paddingTop="5dp"
+                            style="@style/BiotestTextAppearanceListItem"/>
+
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VLF = "
+                />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdasd"
+                android:id="@+id/vlf_index"/>
+
+
+    </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Диагноз"
+            android:id="@+id/vlf_diagnose"
+            style="@style/BiotestTextAppearanceListItem"
+            />
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LF = "
+                />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdasd"
+                android:id="@+id/lf_index"
+               />
+
+
+    </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Диагноз"
+            android:id="@+id/lf_diagnose"
+            style="@style/BiotestTextAppearanceListItem"
+            />
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HF = "
+                />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdasd"
+                android:id="@+id/hf_index"
+              />
+
+
+    </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Диагноз"
+            android:id="@+id/hf_diagnose"
+            style="@style/BiotestTextAppearanceListItem"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_full"
+            android:id="@+id/vlf_full"  android:textStyle="italic"
+            android:textIsSelectable="false"/>
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/balance_title"
+            android:textStyle="bold"  style="@style/BiotestTextAppearance.Large" android:textIsSelectable="false"
+            android:layout_marginTop="10dp"/>
+
+
+
+
+
+
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/balance_low"
+                 android:paddingTop="5dp"
+                style="@style/BiotestTextAppearanceListItem"/>
+
+
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HF/LF  "
+                />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdasd"
+                android:id="@+id/hf_lf_index"/>
+
+
+    </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Диагноз"
+            style="@style/BiotestTextAppearanceListItem"
+            android:id="@+id/hf_lf_diagnose"
+            />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_full"
+            android:id="@+id/balance_full"  android:textStyle="italic"
+            android:textIsSelectable="false"/>
+
+
+
+
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/center_title"
+            android:textStyle="bold"  style="@style/BiotestTextAppearance.Large" android:textIsSelectable="false"
+             android:layout_marginTop="10dp"/>
+
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/center_low"
+                 android:paddingTop="5dp"
+                style="@style/BiotestTextAppearanceListItem"/>
+
+
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IC =  "
+                />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdasd"
+                android:id="@+id/ic_index"/>
+
+
+    </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Диагноз"
+            style="@style/BiotestTextAppearanceListItem"
+            android:id="@+id/ic_diagnose"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_full"
+            android:id="@+id/centr_full"  android:textStyle="italic"
+            android:textIsSelectable="false"/>
+
+
+
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stress_title"
+            android:textStyle="bold"  style="@style/BiotestTextAppearance.Large" android:textIsSelectable="false"
+            android:layout_marginTop="10dp"/>
+
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/BiotestTextAppearanceListItem"
+                android:text="@string/stress_low"
+                android:paddingTop="5dp"/>
+
+
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IN =  "
+                />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdasd"
+                android:id="@+id/in_index"/>
+
+
+    </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Диагноз"
+            style="@style/BiotestTextAppearanceListItem"
+            android:id="@+id/in_diagnose"
+            />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_full"
+            android:id="@+id/stress_full"  android:textStyle="italic"
+            android:textIsSelectable="false"/>
+
+</LinearLayout>
+</ScrollView>

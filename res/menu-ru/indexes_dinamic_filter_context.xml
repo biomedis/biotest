@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="За сегодня"
+          android:id="@+id/today"
+          android:showAsAction="always"
+            />
+    <item android:title="За три дня"
+          android:id="@+id/threeday"
+          android:showAsAction="always"
+            />
+    <item android:title="За неделю"
+          android:id="@+id/week"
+          android:showAsAction="always"
+            />
+    <item android:title="За две недели"
+          android:id="@+id/twoweek"
+          android:showAsAction="always"
+            />
+    <item android:title="За месяц"
+          android:id="@+id/month"
+          android:showAsAction="always"
+            />
+    <item android:title="За три месяца"
+          android:id="@+id/threemonth"
+          android:showAsAction="always"
+            />
+    <item android:title="За полгода"
+          android:id="@+id/sixmonth"
+          android:showAsAction="always"
+            />
+    <item android:title="За год"
+          android:id="@+id/year"
+          android:showAsAction="always"
+            />
+
+    <item android:title="За выбранный промежуток"
+          android:id="@+id/custominterval"
+          android:showAsAction="always"
+            />
+</menu>

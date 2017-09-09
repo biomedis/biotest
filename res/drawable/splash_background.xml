@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/splash_background"></solid>
+        </shape>
+    </item>
+
+    <item>
+        <bitmap android:src="@drawable/setka1" android:tileMode="repeat"></bitmap>
+            </item>
+    <item >
+        <shape android:shape="rectangle" >
+            <gradient
+                    android:type="radial"
+                    android:startColor="@color/radial_grad2"
+                    android:endColor="#00ffffff"
+                    android:gradientRadius="200">
+
+            </gradient>
+        </shape>
+    </item>
+
+    <item >
+        <shape android:shape="rectangle"  >
+            <gradient
+                    android:type="radial"
+                    android:startColor="@color/radial_grad1"
+                    android:endColor="#00000000"
+                    android:gradientRadius="100">
+
+            </gradient>
+        </shape>
+    </item>
+</layer-list>

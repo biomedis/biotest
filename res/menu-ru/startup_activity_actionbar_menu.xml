@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Профили"
+            android:id="@+id/actionProfiles"
+            android:showAsAction="ifRoom"
+            />
+    <item android:title="Статьи"
+          android:id="@+id/actionTexts"
+          android:showAsAction="ifRoom"
+            />
+    <item android:title="Руководство"
+          android:id="@+id/actionGuide"
+          android:showAsAction="ifRoom"
+            />
+
+
+
+
+    <item android:title="Измерение из файла"
+          android:id="@+id/actionDebugMeasure"
+          android:visible="false"
+          android:showAsAction="collapseActionView"
+            />
+    <item android:title="Настройки"
+          android:id="@+id/options"
+          android:showAsAction="collapseActionView"
+
+            />
+</menu>

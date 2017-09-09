@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/ru.biomedis.biotest"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:gravity="fill_vertical"   android:background="@android:color/transparent">
+
+
+
+
+   <view
+
+         android:id="@+id/lineGraph"
+         android:height="130dp"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:gravity="fill_vertical"
+         android:background="@android:color/transparent"
+         app:ColorBackground="@android:color/transparent"
+         class="ru.biomedis.biotest.graph.LineGraph"
+         android:minHeight="100dp"
+         app:titleGraph="График"
+         app:colorLine="@android:color/holo_blue_bright"
+         app:paddingX="10dp"
+         app:paddingY="10dp"
+         app:sizeFontLabelsAxis="9sp"
+         app:ColorlabelAxisX="#FF42A7A4"
+         app:ColorlabelAxisY="#FF42A7A4"
+         app:minY="0"
+         app:maxY="255"
+         app:zeroLineY="128"
+         android:layout_weight="1"
+
+
+
+
+     />
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+
+            >
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/start"
+                android:id="@+id/buttonStart" android:layout_marginLeft="20dp" android:layout_marginRight="10dp"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <Button
+                        android:visibility="invisible"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fm_update_usb"
+                        android:id="@+id/buttonRequestUsbPermission" android:layout_marginRight="20dp"/>
+
+               <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_gravity="right" android:id="@+id/last_time_layout" android:visibility="invisible">
+
+                   <TextView
+
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="@string/fm_last_time"
+        android:textSize="15sp"
+                           />
+                <TextView
+                        android:id="@+id/measureTimer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        />
+               </LinearLayout>
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

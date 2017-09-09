@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/splash_background"
+              android:id="@+id/splashroot"
+        >
+
+    <ImageView
+          android:layout_width="wrap_content"  android:layout_height="wrap_content"
+            android:src="@drawable/pulse_l_t"
+          android:layout_gravity="left|top"
+            />
+    <ImageView
+          android:layout_width="wrap_content"  android:layout_height="wrap_content"
+          android:src="@drawable/pulse_l_b"
+          android:layout_gravity="left|center_vertical"
+          android:layout_marginTop="50dp"
+
+            />
+    <ImageView
+          android:layout_width="wrap_content"  android:layout_height="wrap_content"
+          android:src="@drawable/pulse_r"
+          android:layout_gravity="right|center_vertical"
+
+            />
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center" android:id="@+id/logiid"  android:layout_marginBottom="25dp" >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/programm_name"
+                android:id="@+id/textView" android:layout_gravity="center_horizontal|top"
+                android:textColor="@color/app_title"
+                android:textSize="30sp" />
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                         android:layout_gravity="center" >
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" android:src="@drawable/heart"
+                        android:contentDescription="@string/logo_desc_text" android:layout_marginRight="40dp"
+                        android:id="@+id/heart"
+
+                      />
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                         android:layout_gravity="top|center" android:src="@drawable/logo"
+                        android:contentDescription="@string/logo_desc_text"/>
+
+            </FrameLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/biomedis_phone"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="25dp"
+            android:textColor="@color/app_title"/>
+</FrameLayout>
+

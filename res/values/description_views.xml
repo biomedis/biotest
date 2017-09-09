@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+
+    <!-- Описания и заголовки графиков  результатов измерений -->
+<string name="hr_title_dynamic">Dynamics of heart rate frequency</string>
+<string name="hr_full_descriprion">
+    <![CDATA[
+    <p>
+       If heart rate<50, it’s significant reduction in heart rate frequency (expressed bradycardia).<br/>
+      If heart rate is 50-60, it’s moderate reduction in heart rate frequency (moderate bradycardia).<br/>
+     If heart rate is 60-80, heart rate frequency is within norm (normocardia).<br/>
+     If heart rate is 80-90, it’s moderate acceleration in heart rate (moderate tachycardia).<br/>
+    If heart rate>90, it’s significant acceleration in heart rate (expressed tachycardia).
+    </p>
+     ]]>
+</string>
+
+    <string name="hr_level1">Significant reduction in heart rate (expressed bradycardia).</string>
+    <string name="hr_level2"> Moderate reduction in heart rate (moderate bradycardia).</string>
+    <string name="hr_level3">Heart rate within norm (normocardia).</string>
+    <string name="hr_level4">Moderate acceleration in heart rate (moderate tachycardia).</string>
+    <string name="hr_level5">Significant acceleration in heart rate (expressed tachycardia).</string>
+
+    <string name="histogramm_title">Graph of distribution of R-R intervals</string>
+    <string name="histogramm_description">
+        <![CDATA[
+
+        <p>Histogram of distribution is built on the basis of data about R-R intervals: which intervals and how often have appeared in the processes of measurement; they are usually grouped into diapasons per 50 sm. Histogram is quite informative indicator: it is possible to know out much information about state of regulation’s systems even visually.
+        </p>
+        <p>In stressful situations as well as in case of pathological states, diagram will have short chart floor and sharp vertex, heart is strained, and its rhythm is harder. Asymmetric diagram is seen in case of transitory processes, deviation in stationary process. The graph with many vertexes indicates about extrasystole and atrial fibrillation. Wide histogram with one vertex testifies about relaxation, moderate variable rhythm. </p>
+
+              ]]>
+    </string>
+
+    <string name="RR_title">Graph of intervals between pulses </string>
+    <string name="RR_description">
+        <![CDATA[
+
+
+       <p> Graph of change in intervals between pulses is cardiointervalogram. Since measurement is conducted during 5 minutes, it is possible to see on diagram how intervals are changed. Quicker changes are connected with influence of vegetative nervous system, while longer and slower changes are linked with impact of humoral system. Using these data, the program calculates all indicators of pulse measurement for evaluation of state of regulation’s systems.  </p>
+
+        ]]>
+    </string>
+
+    <string name="spectr_title">Spectogram of intervals between pulses </string>
+    <string name="spectr_description">
+        <![CDATA[
+         <p>
+      It reflects power of spectrum of pulse variation in diapason from 0 till 0.4 Hz. It is divided into 3 sub-diapasons; very low-frequency VLF from 0 till 0.04 Hz (dark blue), low frequency LF from 0.04 till 0.15 Hz (red), high frequency from 0.15 till 0.4 Hz green).
+         </p>
+        <p>
+         <strong>HF (High Frequency)</strong> is high frequency, fast waves. Their duration is 2,5-7 seconds, frequency of oscillations is 0,15-0,4 Hz. It is usually colored in green on graph, reflects influence of parasympathetic system of regulation (processes of inhibition in activity of nervous system).
+
+
+           <br/>
+           <strong> LF (Low frequency)</strong>  is low frequency, moderate waves. Their duration is 7-25 seconds, frequency of oscillations is 0,04-0,15 Hz. It is usually colored in red on graph, reflects influence of sympathetic system of regulation (processes of activity’s mobilization).
+
+
+
+            <br/>
+          <strong>  VLF (Very Low Frequency)</strong>  is very low frequency, slow waves. Their duration exceeds 25 seconds, frequency of oscillations is 0,04 Hz. It usually colored in light-blue on graph, reflects humoral regulation (slow influences).
+
+            <br/><br/>
+            Total power is usually calculated in sub-diapasons; it is shown through circle charts on the image. The diagram HF/LF reflects predominance of parasympathetic part over sympathetic one. The diagram HF/LF/VLF reflects distribution of shares of various regulation systems’ influences.
+            Total power of the whole spectrum (TP) reflects adaptive capacities of body, reserve of vital powers. IF TP<1500, it indicates exhaustion of vital powers and activity.
+        </p>
+
+          ]]>
+    </string>
+
+    <string name="scatter_title" >Scattergram </string>
+    <string name="scatter_description" >
+        Normal form of scattergram represents an ellipse elongated along bisector. Such position of ellipse means that certain value of non-respiratory arrhythmia is added to respiratory one. The shape of circle means absence of non-respiratory components of arrhythmia. Narrow oval corresponds to predominance of non-respiratory components in general variability of rhythm. The length of oval suits to LF, breadth suits to HF of spectrum’s powers. In case of extrasystole, we will see on spectrogram some spots on bisector, and certain others near it.
+
+    </string>
+
+
+    <string name="sector_LF_HF_title">Balances in mechanisms of consumption and restoration of energy in body</string>
+    <string name="sector_LF_HF_description">
+        <![CDATA[
+        Diagram LF/HF reflects predominance of sympathetic part’s (mobilization) influence over sympathetic one (relaxation). If LF/HF ≈ 1, it’s norm; if LF/HF<1, there is significant relaxation; if LF/HF>2, it means that there is essential mobilization.
+  ]]>
+    </string>
+
+    <string name="sector_full_title">State of regulation’s mechanisms of body’s physiologic functions</string>
+    <string name="sector_full_description">
+        <![CDATA[
+       Reflection of distribution of shares VLF, LF, HF. <br/>
+       HF-diapason reflects activity of reflex systems of regulation, recovering energy potential of organs and systems. <br/>
+       LF-diapason reflects activity of reflex systems of regulation: in case of prolonged activity, exhaustion of energy resources of organs and systems occurs. <br/>
+        VLF-diapason reflects work of vasomotor center and humoral mechanisms of regulation.
+          ]]>
+    </string>
+
+
+    <string name="in_title">Index of tension</string>
+    <string name="in_description">@string/stress_full</string>
+    <string name="in_bar_30">State of expressed distress with predominance of stress-limiting systems’ activity..</string>
+    <string name="in_bar_60">State of compensated distress with tendency to predominance of stress-limiting systems’ activity. </string>
+    <string name="in_bar_120">State of eustress (optimum of adaptation from position of physiologic regulation).</string>
+    <string name="in_bar_200">State of tension in adaptation mechanisms with tendency to enhancement of stress-realizing systems’ activity. </string>
+    <string name="in_bar_201">State of expressed stress with possibility of damaging influence on systems and organs by excessive activity of stress-realizing systems. </string>
+
+
+    <string name="is_title">Index of centralization in management over rate</string>
+    <string name="is_description">
+        <![CDATA[
+       <p>IC (Index of Centralization), IC=(HF+LF)/VLF. It reflects level of predominance in non-respiratory components of sinus arrhythmia over respiratory ones. In fact, this is quantitative feature of ratio between central (VLF) and autonomy (HF and LF) contours of regulation in heart rate. It increases in case of acceleration of autonomy influences. </p>
+        <p> If IC>1, it means that regulation process of physiological functions is characterized by predominance of autonomy (segmental) impacts in management, reflecting optimal functioning of system (vegetative nervous system). In this case, share of VLF-diapason occupies less than half of area on circle chart (lower circle chart) “Spectral power of diapasons”.
+        </p>
+        <p> If IC<1, it means that regulation process of physiological functions is characterized by predominance of central impacts in management (humoral system of regulation), reflecting tension of system’s functioning and tendency towards duplication of control over processes. In this case, share of VLF-diapason occupies more than half of area on circle chart (lower circle chart) “Spectral power of diapasons.
+        </p>
+        <p>Let’s mention certain details: share of VLF in healthy young persons is usually 1/4 - 1/3 of circle chart, while half of circle chart (IC=1) is a norm for persons who are about 50 years old. It means that index of centralization is tightly connected with aging processes. It also reflects how poorly reflex mechanisms (vegetative nervous system) carry out their functions.
+        </p>
+         ]]>
+    </string>
+    <string name="ic_bar_0_1">The process of regulation of physiological functions is characterized by predominance of central influences in management, reflecting tension in system’s functioning and tendency to duplication of control over processes. </string>
+    <string name="ic_bar_1_4">The process of regulation of physiological functions is characterized by predominance of autonomy (segmental) influences in management, reflecting optimal functioning of system. </string>
+    <string name="ic_bar_balance">It is seen balance of autonomy and central influences in management over rate</string>
+
+
+    <string name="bak_title">Balance of anabolic and catabolic processes </string>
+    <string name="bak_description" formatted="false" >
+        <![CDATA[
+                  <p>
+                  <strong>Anabolic processes </strong>(anabolism) represent formation of new structures and substances in the body, renewal and growth of tissues, including muscle one.
+                     <br/>
+                     <strong>Catabolic processes </strong> (catabolism) represent processes which are opposite to anabolic one: destruction of substances and structures, including muscle one.
+
+                  </p>
+                <p> If BAC<33%, the process of catabolism predominates in the body.</p>
+                <p> If 33%<BAC<66%, there is equilibrium of catabolic and anabolic processes in the body.  </p>
+                <p>If BAC>66%, the process of anabolism predominates in the body. </p>
+
+            ]]>
+    </string>
+    <string name="ksh_bar_33">The process of catabolism predominates in body. </string>
+    <string name="ksh_bar_66">There is balance of catabolic and anabolic processes in body.</string>
+    <string name="ksh_bar_66_100">The process of anabolism predominates in body.</string>
+
+    <string name="be_title">Biological energy</string>
+    <string name="be_description">
+        <![CDATA[
+         <p>Characterization on the basis of absolute value of total power of spectrum (TP). Total power of the whole spectrum (TP) reflects general adaptive capacities of the body, reserves of vital powers. If TP<1500, it means that vital powers and activity are exhausted.
+            </p>
+
+        <ul>
+            <li>
+               If TP<300ms2, reserves of energy are exhausted (expressed asthenoneurotic state; needs: urgent restoration of “vital powers”, choice of optimal regime in work and rest, compensation of main disease’s development);
+            </li>
+            <li>if TP is 300-700ms2, reserves of energy are reduced essentially (asthenia, the state is accompanied with reduction of creative potential and ability to work; time and resources needed for restoration during diseases increase significantly, hipoergic reactions are typical); </li>
+            <li>if TP is 700-1500ms2, reserves of energy are reduced (tendency to asthenia and reduction of ability to work);</li>
+            <li>if TP is 1500-3000ms2, reserves of energy are within norm (optimal regime of functioning);</li>
+            <li>if TP is 3000-4000ms2, reserves of energy are increased (good level of stamina, formation of adaptation’s reserves); </li>
+            <li>if TP is 4000-6000ms2, reserves of energy are increased significantly (state of excessive reactions – hiperergia; there is necessity in restoration of balance in energy consumption);</li>
+            <li>if TP>6000ms2, reserves of energy are excessive (significant imbalance in consumption of vital powers, state of vegetative dysfunction).</li>
+        </ul>
+        <p>As the favorite children’s question “What is stronger: elephant or whale?” is not correct, so it is here: a person with high value of total power of spectrum is not always tougher than a person with lower value of TP. But values of the same person should be compared: if his value of TP is higher today than yesterday, it means that he has rested well and gained power. But if his TP value has become lower, it means that today is not his day.</p>
+        ]]>
+    </string>
+    <string name="be_bar_300">Reserves of energy are exhausted (expressed asthenoneurotic state presents; restoration of “vital powers”, choice of optimal regime in work and rest, and compensation of main disease’s development are required).</string>
+    <string name="be_bar_300_700">Reserves of energy are reduced essentially (asthenia is accompanied with reduction of creative potential and ability to work; time and resources needed for restoration in case of diseases increase significantly; hypoergic reactions are typical).</string>
+    <string name="be_bar_700_1500">Reserves of energy are reduced (tendency to asthenia and reduction in ability to work).</string>
+    <string name="be_bar_1500_6000">Reserves of energy are within norm (optimal regime of functioning)</string>
+    <string name="be_bar_6000">Reserves of energy are excessive (essential imbalance in consumption of vital powers, state of vegetative dysfunction) </string>
+
+
+
+    <string name="p_m_title">Meridian of Lungs P</string>
+    <string name="p_m_description">It includes lungs, skin surfaces, central and peripheral nervous systems. So, the system which manages gas and water exchange of the body with external environment is meant under the word “Lungs”. The physical organ lungs carry out consumption of oxygen and emission of carbon dioxide and also moisture from the body. An essential part of regulation in water-salt metabolism takes part through sweating on skin surface. Skin surfaces also determine protection from external impact of environment. To manage this complicated and extensive system which provides connection with external environment and filtration of different metabolism’s processes, the conception “Lungs” involves here central and peripheral nervous systems. Just certain functions of nervous system are included here: control of interrelation of the body and external environment. (It is needed to remember that here it is spoken about classification on the basis of functional features but not morphological ones. Correspondingly, nervous system is included in the all “12 organs” but different functional tasks of nervous system are meant in each separate case.) </string>
+
+    <string name="gi_m_title">Meridian of large intestine GI</string>
+    <string name="gi_m_description">It is responsible for transportation of wastes and it also plays essential role in absorption of water. “Large intestine” is a paired organ of “Lungs”. When normal circulation of vital energy takes place in “Lungs”, large intestine also functions normally, and its good emptying is provided. Disorders in circulation of vital energy in “Lungs” cause difficulties during emptying. When state of large intestine’s overfilling and heat accompanied with constipation appears, the following state may be caused: energy of “Lungs” stops going downs: it causes dyspnea.  </string>
+
+    <string name="rp_m_title">Meridian of spleen and pancreas RP</string>
+    <string name="rp_m_description">The function of spleen (as functional system) involves control of all processes of absorption of food and moisture, and their transportation around the body, and also control of blood and muscles. Of course, such extensive functions go beyond the spleen, as a physiological organ. The function of stemming blood flow is mainly meant under control of blood. When this function is disordered, different bleedings take place. As for connection between muscles and functioning of limbs, it appears from function of transportation of nutrients to them. If nutrients are delivered to muscles, they keep their elasticity and strength; when transportation of nutrients is disordered, muscles become weaker. </string>
+
+    <string name="e_m_title">Meridian of stomach E</string>
+    <string name="e_m_description">It manages consumption and digestion of food. This is a paired organ of “Spleen”. To understand the difference between the role of “Spleen” as a manager of digestion and “Stomach”, it is needed to consider that “Spleen” is “Yin” organ, while “Stomach” is “Yang” organ. The process of digestion is divided into two parts on the basis of dialectic principle: “yang” processes of crushing and digestion of food are functions of “Stomach”, while “yin” processes of nutrients’ absorption is function of “Spleen”. Support of balance between these two processes provides quality digestion. </string>
+
+    <string name="c_m_title">Meridian of heart C</string>
+    <string name="c_m_description">It is responsible for blood transportation. But function of “Heart” is not limited by this item. According to conceptions of traditional Chinese medicine, “Heart” has the leading role in management of numerous mental and psychic functions which are included into activity of central nervous system under conception of modern western medicine. Another function of “Heart” is sweating. There is the following rule in Chinese medicine: “Blood and sweat have the same origin”. “Lack of sweat means absence of blood, and lack of blood means absence of sweat. Spending of blood takes place during excessive sweating”. Particularly, in case of diseases, symptoms of deviated heart rate are noted, if a person has sweated too much, and as a result, too much blood has been spent. </string>
+
+
+    <string name="ig_m_title">Meridian of small intestine  IG</string>
+    <string name="ig_m_description">According to conceptions of Chinese medicine, “Small intestine” is responsible for getting and transformation of substances”. It gets nutrients from stomach, processes them, carrying out dividing of transparent and muddy substances at the same time. The transparent part (nutritional substances) is absorbed, and it passes through spleen, spreading throughout the body nourishing it. The muddy part passes to large intestine. Aqueous digestive juices remained from metabolism passes below to urinary bladder. “Heart” and “Small intestine” are paired organs. Meridian of heart exits heart and passes to small intestine. Meridian of small intestine exits it, and it is connected with heart. This internal connection carries out motion of heat.  Deviation in this function leads to pathologic states. For example, in case of heat’s motion downs to small intestine, it evaporates body’s fluid. It leads to rare urination and rosy color of urination which gives hot evaporations. Motion of large intestine’s heat to heart may “singe” it. In this case, the patient has state of excitation, rushing and bubbles in mouth and on tongue.   </string>
+
+    <string name="v_m_title">Meridian of urinary bladder V </string>
+    <string name="v_m_description">It belongs to the organs which manage metabolism of fluids. “Urinary bladder” is a paired organ of “Kidneys”. Important function of “Urinary bladder” is “evaporation” which depends on power or weakness of energy of “Kidneys”. Energy of “Kidneys” helps “Urinary bladder” during urination: during control of opening and closing of “Urinary bladder”. </string>
+
+
+    <string name="r_m_title">Meridian of kidneys R </string>
+    <string name="r_m_description">According to conceptions of Chinese medicine, function of Kidneys” is, first of all, production of marrow, spinal cord, and brain. “Kidneys” manage bones, and they are source of reproduction at the same time. They manage reproductive functions, and they are responsible for exchange of fluids. According to Chinese medicine, retention and excretion of urine depend not only on urinary bladder but also on kidneys. When “Kidneys” have sufficient amount of energy, “Urinary bladder” can retain urine completely, and be opened and closed normally. This is a condition of normal exchange of fluids in the body. When “Kidneys” don’t have sufficient amount of energy, “Urinary bladder” loses its ability to retain urine. Functioning of opening and closing of urinary bladder becomes disordered, urination can’t be controlled, excessive urination or unintentional urination takes place.   </string>
+
+
+    <string name="mc_m_title">Meridian of pericardium MC</string>
+    <string name="mc_m_description">It is actually external sac of heart. “Pericardium” separates heart from other organs of chest. According to conceptions of Chinese medicine, in addition to protective function for heart, it manages blood circulation through blood vessels. Together with “Heart”, “Pericardium” influences on central nervous system, activity of mind and psychic state. </string>
+
+    <string name="tr_m_title">Meridian of three heaters TR</string>
+    <string name="tr_m_description">Upper, lower and middle heaters are meant under the conception “Three heaters”. “Upper heater” is located over esophagus, and contains such organs, as “Heart” and “Lungs”. “Middle heater” is in upper abdominal part, approximately at the level with stomach, and it contains “Spleen” and “Stomach”. “Lower heater” is located below the navel in lower abdominal part, and it includes kidneys and liver, “Small intestine”, “Large intestine” and “Urinary bladder”. “Three heaters” manage work of all internal organs; from the position of modern medicine, “Three heaters” are like endocrine system. But this is just physiological matching which doesn’t include the whole conception about circulation of energy, existing in Chinese medicine.   </string>
+
+
+    <string name="vb_m_title">Meridian of gall bladder VB</string>
+    <string name="vb_m_description">According to conceptions of Chinese medicine, it has doubled function: storage of bile and its releasing to digestive duct. Energy of “Gall bladder” is connected with psychic state of person. Psychic diseases and psychosomatic disorders, such as insomnia, excessive intensity in dreams, heart beats, etc., are often treated with consideration of gall bladder in Chinese medicine. “Gall bladder” has close relation to “Stomach” and “Spleen”, supporting them during carrying out of digestive functions by them.   </string>
+
+
+    <string name="f_m_title">Meridian of liver F </string>
+    <string name="f_m_description">
+        <![CDATA[
+       According to conceptions in Chinese medicine, it carries out the following functions: 1. Accumulation and regulation of blood. 2. Transportation and excretion of different substances from the body. 3. Control of tendons. According to Chinese traditional medicine, “Liver accumulates blood, while heart transports it. When person has movements, blood passes to vessels. If person rests, blood flows to liver back”. According to Chinese conceptions, such important function of blood as filtration is explained as love of liver for order. Above all, dysfunctions in liver are manifested in psychics and digestion. The following rule is valid in Chinese medicine: psychic state of person is managed not only by heart but it also has close connection with “Liver”. Dysfunctions of “Liver” lead to depressions. Chinese people believe that “liver loves order, and it doesn’t love sorrows and sadness”; “intense stress is harmful for liver”. Another function of “Liver” is management of tendons. It is explained the following way: tendons are nourished with blood which is accumulated in liver. When there is no sufficient amount of blood in liver, nutrition of tendons is not provided.
+         ]]>
+        </string>
+
+
+    <string name="significant_depletion">Essential exhaustion </string>
+    <string name="slight">Unessential exhaustion </string>
+    <string name="rate">Norm </string>
+    <string name="slight_depletion">Unessential tension</string>
+    <string name="voltage">Essential tension</string>
+
+
+
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages base_dir="manuals_el" image_dir="images">
+    <page menu_name="Εισαγωγή" doc_name="start.xhtml"  start_page=""/>
+    <page menu_name="Διενέργεια μετρήσεων" doc_name="measure.xhtml" description="Σωστή διενέργεια μετρήσεων"  />
+    <page menu_name="Αποτελέσματα μετρήσεων" doc_name="results.xhtml" description="Περιγραφή καρτελών με αποτελέσματα και ερμηνεία τους"  />
+    <page menu_name="Δουλεύοντας με το προφίλ" doc_name="profile.xhtml" description="Περιγράφει τις εργασίες, που γίνονται με το προφίλ: Δημιουργία κλπ" />
+
+
+</pages>

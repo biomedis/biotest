@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:baselineAligned="false"
+              android:minHeight="150dp" android:gravity="center_horizontal">
+
+
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+        <view
+                android:id="@+id/mBar1"
+                android:height="1dp"
+                android:width="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                class="ru.biomedis.biotest.graph.SingleBarGraphImpl.IntegerSingleBarGraph"
+
+
+                android:background="#FFFFFF"
+                android:layout_weight="10"/>
+        <LinearLayout     android:orientation="horizontal"    android:layout_width="wrap_content"   android:layout_height="wrap_content"  >
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="P"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+        <view
+                android:id="@+id/mBar2"
+                android:height="1dp"
+                android:width="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                class="ru.biomedis.biotest.graph.SingleBarGraphImpl.IntegerSingleBarGraph"
+
+
+                android:background="#FFFFFF"
+                android:layout_weight="10"/>
+        <LinearLayout     android:orientation="horizontal"    android:layout_width="wrap_content"   android:layout_height="wrap_content"  >
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GI"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+        <view
+                android:id="@+id/mBar3"
+                android:height="1dp"
+                android:width="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                class="ru.biomedis.biotest.graph.SingleBarGraphImpl.IntegerSingleBarGraph"
+
+
+                android:background="#FFFFFF"
+                android:layout_weight="10"/>
+        <LinearLayout     android:orientation="horizontal"    android:layout_width="wrap_content"   android:layout_height="wrap_content"  >
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="E"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+        <view
+                android:id="@+id/mBar4"
+                android:height="1dp"
+                android:width="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                class="ru.biomedis.biotest.graph.SingleBarGraphImpl.IntegerSingleBarGraph"
+
+
+                android:background="#FFFFFF"
+                android:layout_weight="10"/>
+        <LinearLayout     android:orientation="horizontal"    android:layout_width="wrap_content"   android:layout_height="wrap_content"  >
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RP"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+        <view
+                android:id="@+id/mBar5"
+                android:height="1dp"
+                android:width="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                class="ru.biomedis.biotest.graph.SingleBarGraphImpl.IntegerSingleBarGraph"
+
+
+                android:background="#FFFFFF"
+                android:layout_weight="10"/>
+        <LinearLayout     android:orientation="horizontal"    android:layout_width="wrap_content"   android:layout_height="wrap_content"  >
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="C"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+        <view
+                android:id="@+id/mBar6"
+                android:height="1dp"
+                android:width="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                class="ru.biomedis.biotest.graph.SingleBarGraphImpl.IntegerSingleBarGraph"
+
+
+                android:background="#FFFFFF"
+                android:layout_weight="10"/>
+        <LinearLayout     android:orientation="horizontal"    android:layout_width="wrap_content"   android:layout_height="wrap_content"  >
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="IG"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+        <view
+                android:id="@+id/mBar7"
+                android:height="1dp"
+                android:width="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                class="ru.biomedis.biotest.graph.SingleBarGraphImpl.IntegerSingleBarGraph"
+
+
+                android:background="#FFFFFF"
+                android:layout_weight="10"/>
+        <LinearLayout     android:orientation="horizontal"    android:layout_width="wrap_content"   android:layout_height="wrap_content"  >
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="V"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+        <view
+                android:id="@+id/mBar8"
+                android:height="1dp"
+                android:width="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                class="ru.biomedis.biotest.graph.SingleBarGraphImpl.IntegerSingleBarGraph"
+
+
+                android:background="#FFFFFF"
+                android:layout_weight="10"/>
+        <LinearLayout     android:orientation="horizontal"    android:layout_width="wrap_content"   android:layout_height="wrap_content"  >
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="R"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+        <view
+                android:id="@+id/mBar9"
+                android:height="1dp"
+                android:width="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                class="ru.biomedis.biotest.graph.SingleBarGraphImpl.IntegerSingleBarGraph"
+
+
+                android:background="#FFFFFF"
+                android:layout_weight="10"/>
+        <LinearLayout     android:orientation="horizontal"    android:layout_width="wrap_content"   android:layout_height="wrap_content"  >
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MC"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+        <view
+                android:id="@+id/mBar10"
+                android:height="1dp"
+                android:width="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                class="ru.biomedis.biotest.graph.SingleBarGraphImpl.IntegerSingleBarGraph"
+
+
+                android:background="#FFFFFF"
+                android:layout_weight="10"/>
+        <LinearLayout     android:orientation="horizontal"    android:layout_width="wrap_content"   android:layout_height="wrap_content"  >
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TR"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+        <view
+                android:id="@+id/mBar11"
+                android:height="1dp"
+                android:width="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                class="ru.biomedis.biotest.graph.SingleBarGraphImpl.IntegerSingleBarGraph"
+
+
+                android:background="#FFFFFF"
+                android:layout_weight="10"/>
+        <LinearLayout     android:orientation="horizontal"    android:layout_width="wrap_content"   android:layout_height="wrap_content"  >
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="VB"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+        <view
+                android:id="@+id/mBar12"
+                android:height="1dp"
+                android:width="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                class="ru.biomedis.biotest.graph.SingleBarGraphImpl.IntegerSingleBarGraph"
+
+
+                android:background="#FFFFFF"
+                android:layout_weight="10"/>
+        <LinearLayout     android:orientation="horizontal"    android:layout_width="wrap_content"   android:layout_height="wrap_content"  >
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="F"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

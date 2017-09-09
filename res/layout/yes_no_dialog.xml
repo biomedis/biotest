@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+    <TextView
+            android:id="@+id/dlgDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Выйти из программы?"
+            android:layout_marginBottom="30dp"
+            android:gravity="center_horizontal"
+
+            android:textSize="16sp"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            style="@android:style/Holo.ButtonBar">
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Выйти"
+                android:layout_weight="1"
+                android:id="@+id/ok"
+                style="@style/ActionButtonDialog"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Отмена"
+                android:id="@+id/cancel"
+                android:layout_weight="1"
+                style="@style/ActionButtonDialog"/>
+    </LinearLayout>
+
+</LinearLayout>

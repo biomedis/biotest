@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  >
+
+
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="8dp"
+            >
+        <RelativeLayout          android:orientation="horizontal"  android:layout_width="match_parent" android:layout_height="wrap_content"  >
+            <ImageButton
+                    android:id="@+id/createProfileButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_create_profile"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentLeft="true"/>
+
+            <ImageButton android:id="@+id/editProfileButton"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:src="@drawable/btn_edit_profile"
+                         android:layout_marginRight="10dp"
+                         android:layout_toRightOf="@id/createProfileButton"/>
+
+            <ImageButton android:id="@+id/removeProfileButton"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:src="@drawable/btn_delete_profile"
+                         android:layout_toRightOf="@id/editProfileButton"/>
+
+        </RelativeLayout>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ap_list_profiles" android:layout_marginTop="2dp" android:layout_marginBottom="3dp"/>
+        <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/profileListView"
+
+                />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="10dp"
+            >
+        <RelativeLayout            android:layout_width="match_parent" android:layout_height="wrap_content"  >
+            <ImageButton android:id="@+id/removeMeasureButton"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="10dp"
+
+                         android:src="@drawable/btn_delete_profile"
+                         android:layout_alignParentRight="true" />
+
+            <ImageButton android:id="@+id/editMeasureButton"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:src="@drawable/btn_edit_profile"
+                         android:layout_marginLeft="10dp"
+                          android:layout_toLeftOf="@id/removeMeasureButton"/>
+
+            <ImageButton android:id="@+id/viewMeasureButton"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:src="@drawable/btn_view_profile"
+                         android:layout_toLeftOf="@id/editMeasureButton"/>
+
+
+        </RelativeLayout>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ap_list_measures" android:layout_marginTop="2dp" android:layout_marginBottom="3dp"/>
+        <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/measureListView"
+                android:layout_weight="1"
+                android:layout_marginLeft="4dp"
+              />
+
+    </LinearLayout>
+
+ </LinearLayout>
+
+

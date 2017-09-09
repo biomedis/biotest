@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="manuals_items" >
+        <item >Введение</item>
+        <item >Работа с профилями</item>
+        <item >Проведение измерений</item>
+        <item >Результаты измерений</item>
+        <item >Динамика показателей</item>
+    </string-array>
+
+
+
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+
+
+    <string name="biomedis_phone"> ©All rights reserved</string>
+
+</resources>

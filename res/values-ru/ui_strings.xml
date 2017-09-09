@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="delete">Удалить</string>
+    <string name="cancel">Отмена</string>
+    <string name="create">Создать</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="save">Сохранить</string>
+    <string name="view">Показать</string>
+    <string name="close">Закрыть</string>
+    <string name="start">Старт</string>
+
+
+    <!-- Сплеш скрин -->
+    <string name="copyrite"></string>
+    <string name="app_name">БиотестМ 2.1</string>
+    <string name="logo_desc_text">Логотип Биомедис</string>
+    <string name="programm_name">БиотестМ 2.1</string>
+
+
+
+
+
+
+
+         <!-- Слайд меню -->
+    <string name="sm_measure">Измерение</string>
+    <string name="sm_rr">R-R</string>
+    <string name="sm_hist">Гистограмма</string>
+    <string name="sm_spectrum">Спектр</string>
+    <string name="sm_indexes">Индексы</string>
+    <string name="sm_meridians">Меридианы</string>
+    <string name="sm_diagnose">Оценка состояния</string>
+    <string name="sm_scaterogramm">Скаттерограмма</string>
+       <!-- Фрагмент measure-->
+
+    <string name="fm_start">Старт</string>
+    <string name="fm_stop">Стоп</string>
+    <string name="fm_update_usb">Обновить статус USB-датчика</string>
+    <string name="fm_low_signal">Слабый сигнал</string>
+    <string name="fm_biggest_signal">Слишком большой сигнал</string>
+    <string name="fm_last_time">Осталось времени:</string>
+
+    <!-- Диалог профили-->
+    <string name="dp_profile">Профиль:</string>
+    <string name="dp_title">Выбор активного профиля</string>
+    <string name="dp_desc">Выбирите активный профиль. </string>
+    <string name="dp_act">Активный профиль - </string>
+    <string name="dp_profile_not_set">Профиль не установлен</string>
+    <string name="error_select_profile">Ошибка выбора профиля!</string>
+    <string name="error_set_profile">Не удалось установить активный профиль</string>
+
+    <!-- Создание профиля диалог-->
+    <string name="cp_title">Создание профиля</string>
+    <string name="cp_name">Профиль:</string>
+    <string name="cp_comment">Комментарий:</string>
+    <string name="cp_create_btn">Создать профиль</string>
+    <string name="error_create_profile">Ошибка создания профиля!</string>
+    <string name="success_created_profile">Профиль успешно создан!</string>
+    <string name="need_fill_all_fields">Необходимо заполнить имя профиля!</string>
+
+
+    <!-- редактирование профиля диалог-->
+    <string name="ep_title">Редактирование профиля</string>
+    <string name="ep_name">Профиль:</string>
+    <string name="ep_comment">Комментарий:</string>
+    <string name="ep_create_btn">Сохранить </string>
+    <string name="error_get_profile">Ошибка получения профиля!</string>
+    <string name="succes_saved_profile">Профиль успешно сохранен!</string>
+    <string name="error_saved_profile">Ошибка сохранения профиля!</string>
+    <string name="need_fill_name_profile">Необходимо заполнить имя профиля!</string>
+
+
+    <!-- Окно профили-->
+    <string name="ap_list_profiles">Список профилей:</string>
+    <string name="ap_list_measures">Список измерений:</string>
+    <string name="ap_data_less">Недостаточно данных для построения динамики показателей! Необходимо минимум 3 измерения.
+    </string>
+    <string name="ap_delete_profile_question">Удалить профиль?</string>
+
+    <string name="ap_delete_measure_question">Удалить измерение?</string>
+    <string name="ap_delete_measure_description">Выбранное измерение будет удалено вместе с данными!</string>
+    <string name="ap_measure_note">Заметка</string>
+    <string name="error_create_intent_to_call_measure">Не удается создать интент для запуска MeasureDataActivity.class </string>
+    <string name="ap_profile_not_selected">Не выбран профиль!</string>
+    <string name="ap_delete_profile_description">Все измерения профиля со своими данными будут потеряны!</string>
+    <string name="ap_measure_success_delete">Измерение успешно удалено!</string>
+    <string name="ap_delete_error">При удалении произошла ошибка!</string>
+
+
+    <!-- редактирование изменения диалог-->
+    <string name="em_note">Заметка к измерению:</string>
+    <string name="em_title">Редактирование измерения</string>
+    <string name="em_error_get_measure">Ошибка получения измерения!</string>
+    <string name="em_measure_success_updated">Измерение успешно отредактированно!</string>
+    <string name="em_error_updated_measure">Ошибка сохранения измерения!</string>
+
+
+    <!-- Динамика -->
+    <string name="id_dm">Дипазон дат:</string>
+    <string name="id_is">Централизация управления ритмом</string>
+    <string name="id_bak">Баланс анаболитических и катаболитических процессов</string>
+    <string name="id_tp">"Общая энергия "</string>
+    <string name="id_in">Индекс напряженности</string>
+    <string name="id_hr">Средняя частота сердечных сокращений</string>
+    <string name="id_spectr_param">Параметры спектра</string>
+    <string name="id_less_data">Недостаточно данных для построения динамики показателей!</string>
+
+
+
+
+
+
+    <!-- Диалог расчета -->
+    <string name="pcd_title">Расчет показателей пульсометрии</string>
+    <string name="sp_desc">Производится расчет</string>
+
+
+    <!-- Главное окно -->
+
+    <string name="ma_select_act_profile">Выбор активного профиля</string>
+    <string name="ma_descr_select_active_profile">Выберите активный профиль</string>
+    <string name="ma_need_selected_active_profile">Нужно выбрать активный профиль!</string>
+    <string name="ma_close_app_title">Закрыть приложение?</string>
+    <string name="ma_close_app_desc">Текущее измерение будет отменено!</string>
+    <string name="ma_create_profile_title">Создать измерение из выбранного файла?</string>
+    <string name="ma_path_to_file">Выбран файл  </string>
+    <string name="ma_error_load_data_from_file">Загрузить данные измерения не удалось!</string>
+    <string name="ma_measure_success">Измерение завершено. Подготавливаются результаты.</string>
+    <string name="ma_prepare_data_to_view">Подготовка результатов измерения к выводу на экран</string>
+    <string name="ma_canceled_measure">Измерение отменено!</string>
+    <string name="ma_measure_ready">Готово измерение</string>
+    <string name="ma_data_save">Данные сохранены!!!</string>
+    <string name="ma_error_save_data">Ошибка сохранения данных!!!</string>
+    <string name="ma_error_save2">Измерение произведено с ошибкой, данные не сохранены!!!</string>
+    <string name="ma_error_save_3">Произошла ошибка записи данных, отсутствует активный профиль или массив данных. Если проблема повторится обратитесь в службу поддержки.
+    </string>
+    <string name="id_list_params">Список показателей для отображения</string>
+
+
+
+
+
+    <string name="txt_1" >Описывает работу с профилями: создание и т.п.</string>
+    <string name="usb_not_installed">Устройство не подключенно!</string>
+    <string name="ma_cancel_measure_question">Отменить измерение?</string>
+    <string name="ma_start_measure">Начать измерение?</string>
+    <string name="ma_start_measure_description"><![CDATA[Результаты предыдущих измерений доступны в архиве измерений(Профили -> имя профиля )]]></string>
+    <string name="ma_not_nistalled_sensor_q">Проверьте подсоединен ли датчик пульса и попробуйте снова!</string>
+    <string name="pmd_sensor_from_finger">Вы можете снять датчик с пальца.</string>
+    <string name="pa_view_measure_canceled">Просмотр результатов отменен!</string>
+    <string name="pa_cacl_completed">Расчет данных завершен</string>
+    <string name="g_arraygraph_labelx">Номер R-R интервала</string>
+    <string name="g_arraygraph_label_y">R-R интервал, x10мс</string>
+    <string name="g_histgraph_labelx">R-R интервалы, x10мс</string>
+    <string name="g_histgraph_labely">Частота появления</string>
+    <string name="g_spectrgraph_labelx">Интенсивность, 100/мс2</string>
+    <string name="g_spectrgraph_labely">Частота, Гц</string>
+    <string name="g_time">Время</string>
+    <string name="g_bak_dinamic">График изменения БАК</string>
+    <string name="g_tp">График изменения уровня общей энергии</string>
+    <string name="g_hr">График изменения частоты сердечных сокращений</string>
+    <string name="g_in">График изменения индекса напряженности</string>
+    <string name="g_si">График изменения индекса централизации управления ритмом</string>
+    <string name="g_spec">График изменения спектральных составляющих R-R интервалов</string>
+    <string name="data_picker_title">Установка даты</string>
+    <string name="filemanager_error">Отсутствует подходящая программа для выбора файла.</string>
+    <string name="dynamics_calc_dlg_title">Расчет динамики показателей</string>
+    <string name="dynamic_param_not_selected_toast_message">Не выбраны параметры для отображения(ПАРАМЕТРЫ ВЫБОРКИ)
+    </string>
+    <string name="sdcard_not_avaliable">Отсутствует карта памяти или нет разрешения на запись.</string>
+    <string name="error_save_to_sd">Не удалось записать данные на карту памяти</string>
+    <string name="options_title">Настройки</string>
+    <string name="default_t">По умолчанию</string>
+    <string name="option_low_porog_descr">Нижний порог амплитуды пульса:</string>
+    <string name="select_file">Выбор файла</string>
+    <string name="select_file_description">Выбирите файл данных для измерения.</string>
+    <string name="set">Установить</string>
+    <string name="average_heart_rate">Средняя частота пульса:</string>
+    <string name="IN_abbr">ИН =</string>
+    <string name="IS_abbr">ИС =</string>
+    <string name="BAK_abbr">Бак =</string>
+    <string name="BE_abbr">БЭ =</string>
+
+
+    <string name="next_full">Подробнее...</string>
+    <string name="low_freq">Низкие частоты LF</string>
+    <string name="very_low_freq">Очень низкие частоты VLF</string>
+    <string name="hi_freq">Высокие частоты HF</string>
+    <string name="profile_not_find">Профиль не выбран!</string>
+
+</resources>

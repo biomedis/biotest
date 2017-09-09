@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages base_dir="texts_el" image_dir="images">
+    <page menu_name="Εισαγωγή" doc_name="start.xhtml"  start_page=""/>
+    <page menu_name="Ενδείξεις σχετικές με τη μεταβλητότητα του καρδιακού ρυθμού" doc_name="article1.xhtml" description="" />
+    <page menu_name="Καρδιακό διαστημόγραμμα" doc_name="article2.xhtml" description=""  />
+    <page menu_name="Στατιστική μέθοδος εκτίμησησης της μεταβλητότητας του καρδιακού ρυθμού HRV" doc_name="article3.xhtml" description=""  />
+    <page menu_name="Φασματικές μέθοδοι εκτίμησης της μεταβλητότητας του καρδιακού ρυθμού HRV" doc_name="article4.xhtml"  description="" />
+    <page menu_name="Συσχέτιση ρυθμογραφημάτων" doc_name="article7.xhtml"  description="" />
+    <page menu_name="Αναβολικές και καταβολικές διεργασίες" doc_name="article5.xhtml"  description="" />
+</pages>

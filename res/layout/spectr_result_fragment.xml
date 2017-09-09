@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <LinearLayout
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+    <view
+            android:id="@+id/spectrGraph"
+            android:height="200dp"
+            android:width="100dp"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            class="ru.biomedis.biotest.graph.SpectrGraph"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            />
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:layout_marginRight="10dp">
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                  >
+
+                    <view
+                        android:id="@+id/sectorGraph1"
+                        android:height="65dp"
+                        android:width="65dp"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        class="ru.biomedis.biotest.graph.SectorGraphImpl.SimpleSectorGraph"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0"
+                        />
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        >
+                    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"  android:id="@+id/lf_to_hf" android:text="1 " style="@style/BiotestTextAppearance.Small"/>
+                    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"  android:id="@+id/hfText" android:text="2 " style="@style/BiotestTextAppearance.Small" />
+                    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/lfText" android:text=" 3"  style="@style/BiotestTextAppearance.Small"/>
+                    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"  android:id="@+id/tpText" android:text="4 " style="@style/BiotestTextAppearance.Small"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="top">
+                        <view
+                                android:id="@+id/sectorGraph2"
+                                android:height="65dp"
+                                android:width="65dp"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                class="ru.biomedis.biotest.graph.SectorGraphImpl.SimpleSectorGraph"
+                                android:layout_margin="5dp"
+                                android:layout_weight="0"
+                                />
+                    <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            >
+
+                        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"  android:id="@+id/hfProc" android:text=" 5"  style="@style/BiotestTextAppearance.Small"/>
+                        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/lfProc" android:text=" 6"  style="@style/BiotestTextAppearance.Small"/>
+                        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"  android:id="@+id/vlfProc" android:text="7 " style="@style/BiotestTextAppearance.Small" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

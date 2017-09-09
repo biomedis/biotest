@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+    <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+        <TextView
+
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/cp_name"
+                android:textSize="17sp" android:layout_column="0"/>
+        <EditText
+                android:id="@+id/profileName"
+                android:singleLine="true"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                />
+    </TableRow>
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cp_comment"
+                android:textIsSelectable="false"
+                android:textSize="17sp" android:layout_column="0"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:id="@+id/profileComment"
+                android:layout_marginLeft="5dp"
+                android:layout_column="1"
+                android:layout_weight="1"/>
+    </TableRow>
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_marginTop="10dp">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cp_create_btn"
+                android:id="@+id/buttonProfileSave" android:layout_column="0" android:layout_weight="0"/>
+    </TableRow>
+</TableLayout>

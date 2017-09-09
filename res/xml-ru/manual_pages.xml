@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages base_dir="manuals" image_dir="images">
+    <page menu_name="Начало работы" doc_name="start.xhtml"  start_page=""/>
+    <page menu_name="Проведение измерений" doc_name="measure.xhtml" description="" />
+    <page menu_name="Изучение результатов обследования" doc_name="results.xhtml" description=""  />
+    <page menu_name="Работа с профилями" doc_name="profile.xhtml" description=""  />
+
+</pages>

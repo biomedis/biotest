@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LineGraph">
+        <attr name="paddingY" format="dimension" />
+        <attr name="paddingX" format="dimension" />
+        <attr name="sizeFontLabelsAxis" format="dimension" />
+        <attr name="titleGraph" format="string" />
+        <attr name="colorLine" format="color" />
+        <attr name="colorAxis" format="color" />
+        <attr name="ColorlabelAxisX" format="color" />
+        <attr name="ColorlabelAxisY" format="color" />
+        <attr name="ColorBackground" format="color" />
+        <attr name="ColorTitle" format="color" />
+        <attr name="minY" format="integer" />
+        <attr name="maxY" format="integer" />
+        <attr name="zeroLineY" format="integer" />
+
+
+    </declare-styleable>
+    <declare-styleable name="SectorGraph">
+
+    </declare-styleable>
+    <declare-styleable name="SingleBarGraph">
+
+    </declare-styleable>
+</resources>

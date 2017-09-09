@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="tp_list">
+        <item > Reserves of energy are exhausted. Expressed asthenoneurotic state presents. Restoration of “vital powers”, choice of optimal regime in work and rest, and compensation of main disease’s development. </item>
+        <item>Reserves of energy are reduced essentially. Asthenia is accompanied with reduction of creative potential and ability to work; time and resources needed for restoration in case of diseases increase significantly; hypoergic reactions are typical. </item>
+        <item>Reserves of energy are reduced; there are tendencies to asthenia and reduction of ability to work.</item>
+        <item>Reserves of energy are within limits of nominal norm, there is optimal regime of functioning.</item>
+        <item>Reserves of energy are increased; level of stamina is good; there is formation of adaptation’s reserves.</item>
+        <item>Reserves of energy are increased essentially; there is state of excessive reactions – hyperergia; there is necessity in restoration of balance in energy consumption.</item>
+        <item>Reserves of energy are excessive; there is essential imbalance in consumption of vital powers; there is state of vegetative dysfunction. </item>
+    </string-array>
+
+    <string name="tp_full_text">
+        <![CDATA[
+        <p>Characterization on the basis of absolute value of total power of spectrum (TP).</p>
+       <ul>
+        <li>
+            If TP<300ms2, reserves of energy are exhausted (expressed asthenoneurotic state; needs: urgent restoration of “vital powers”, choice of optimal regime in work and rest, compensation of main disease’s development);
+        </li>
+           <li>if TP is 300-700ms2, reserves of energy are reduced essentially (asthenia, the state is accompanied with reduction of creative potential and ability to work; time and resources needed for restoration during diseases increase significantly, hipoergic reactions are typical); </li>
+           <li>if TP is 700-1500ms2, reserves of energy are reduced (tendency to asthenia and reduction of ability to work); </li>
+           <li>if TP is 1500-3000ms2, reserves of energy are within norm (optimal regime of functioning); </li>
+           <li>); if TP is 3000-4000ms2, reserves of energy are increased (good level of stamina, formation of adaptation’s reserves); </li>
+           <li>if TP is 4000-6000ms2, reserves of energy are increased significantly (state of excessive reactions – hiperergia; there is necessity in restoration of balance in energy consumption); </li>
+           <li>); if TP>6000ms2, reserves of energy are excessive (significant imbalance in consumption of vital powers, state of vegetative dysfunction).  </li>
+       </ul>
+        <p>As the favorite children’s question “What is stronger: elephant or whale?” is not correct, so it is here: a person with high value of total power of spectrum is not always tougher than a person with lower value of TP. But values of the same person should be compared: if his value of TP is higher today than yesterday, it means that he has rested well and gained power. But if his TP value has become lower, it means that today is not his day.  </p>
+        ]]>
+
+    </string>
+
+
+
+    <string name="vlf_lf_hf_full_text1">
+      <![CDATA[
+        <p>Characterization on basis of diapasons of absolute values of HF, LF, VLF.</p>
+        <p><b>HF</b></p>
+        <ul>
+            <li>If HF<300ms2, the level of recovering potential is low. </li>
+            <li>If HF is 300-700ms2, the level of recovering potential is moderate. </li>
+            <li>If HF>700ms2, the level of recovering potential is high. </li>
+        </ul>
+        <p><b>LF</b></p>
+        <ul>
+            <li>If LF<300ms2, the level of mobilizing potential is low. </li>
+            <li>If LF is 300-700ms2, the level of mobilizing potential is low.</li>
+            <li>If LF>700ms2, the level of mobilizing potential is high. </li>
+        </ul>
+        <p><b>VLF</b></p>
+        <ul>
+            <li>If VLF<700ms2, the level of hormonal modulation of regulatory mechanisms is low. </li>
+            <li>If VLF is 700-1300ms2, the level of hormonal modulation of regulatory mechanisms is moderate. </li>
+            <li>If VLF>1300ms2, the level of hormonal modulation of regulatory mechanisms is high. </li>
+        </ul>
+        ]]>
+    </string>
+    <string name="vlf_lf_hf_full_text2">
+        <![CDATA[
+       <p> <b>HF</b> is diapason which reflects activity of reflex systems of regulation, restoring energy potential of organs and systems. </p>
+        <p> <b>LF</b> is diapason which reflects activity of reflex systems of regulation; if activity of these systems lasts much time, exhaustion of energy resources of organs and systems occurs. </p>
+        <p> А <b>VLF</b> is diapason which reflects work of vasomotor center and humoral mechanisms of regulation. </p>
+  ]]>
+    </string>
+
+    <string-array name="lf_list">
+        <item >Low level of mobilizing potential of hormonal modulation of regulatory mechanisms</item>
+        <item>Moderate level of mobilizing potential of hormonal modulation of regulatory mechanisms</item>
+        <item>High level of mobilizing potential of hormonal modulation of regulatory mechanisms</item>
+    </string-array>
+    <string-array name="hf_list">
+        <item >Low level of recovering potential</item>
+        <item>Moderate level of recovering potential</item>
+        <item>High level of recovering potential </item>
+    </string-array>
+    <string-array name="vlf_list">
+        <item >Low level of hormonal modulation of regulatory mechanisms</item>
+        <item>Moderate level of hormonal modulation of regulatory mechanisms</item>
+        <item>High level of mobilizing potential of hormonal modulation of regulatory mechanisms</item>
+    </string-array>
+
+
+<string name="relative_full" >
+  <![CDATA[
+    <p>Characterization on basis of ratio LF/HF in diagram</p>
+    <p>If HF>LF, predominance in process of energy potential’s restoration. </p>
+    <p>. If HF<LF, predominance of the process of energy potential’s exhaustion. </p>
+    <p>Everything is clear here. Predominance is there, where the number is higher. It is just needed to note that the norm is considered to be the following ratio: LF/HF≈ 1.5–2. If the coefficient exceeds 2, it manifests that the person is too mobilized. When mobilization occurs during working (load), it is well; but if the person is always too active, there is nothing good here. Another extreme position is significant relaxation, when LF/HF<1. It is normal condition for a tired person, when his body is in the regime of rest. But there are reasonable limits in relaxation. </p>
+  ]]>
+
+</string>
+
+    <string-array name="relative_array">
+        <item >State of norm</item>
+        <item>State of significant mobilization</item>
+        <item>State of significant relaxation</item>
+    </string-array>
+
+
+    <string-array name="center_array">
+        <item >The process of physiological functions’ regulation is characterized by predominance of autonomy (segmental) influences in management, reflecting optimal functioning of system.</item>
+        <item>The process of physiological functions’ regulation is characterized by predominance of central influences in management, reflecting tension in functioning of system and tendency to duplication of control over processes.</item>
+        <item>Balance in systems of management. </item>
+    </string-array>
+
+
+    <string name="center_rithm_full">
+      <![CDATA[
+        <p> Characterization on basis of index of centralization (IC).</p>
+        <p>IC is calculated with the help of the following formula: IC=(HF+LF) / VLF. It reflects balance between activity of segmental and supra-segmental contours of vegetative management. It becomes higher in case of increased autonomy impacts. In other words, this index answers the question whether vegetative nervous system (LF, HF) is able to carry out function of management over heart rate, or vasomotor center and humoral mechanisms of regulation (VLF) help it to fulfill the function.
+        </p>
+        <p> If IC>1, the process of physiological functions’ regulation is characterized by predominance of autonomy (segmental) influences in management, reflecting optimal functioning of system. In this case, share of VLF-diapason occupies less than half of area on circle chart “Spectral power of diapasons”.
+        </p>
+        <p> If IC<1, the process of physiological functions’ regulation is characterized by predominance of central influences in management, reflecting tension of system’s functioning and tendency to duplication of control over processes. In this case, share of VLF-diapason occupies more than half of area on circle chart “Spectral power of diapasons”.
+        </p>
+        <p>Let’s mention certain details: share of VLF in healthy young persons is usually 1/4 - 1/3 of circle chart, while half of circle chart (IC=1) is a norm for persons who are about 50 years old. It means that index of centralization is tightly connected with aging processes. It also reflects how poorly reflex mechanisms (vegetative nervous system) carry out their functions.
+        </p>
+  ]]>
+
+    </string>
+
+    <string-array name="stress_array">
+        <item >State of expressed distress with predominance in activity of stress-limiting systems. </item>
+        <item>State of compensated distress with tendency to predominance in activity of stress-limiting systems. </item>
+        <item>State of eustress (optimum of adaptation from position of physiologic regulation).</item>
+        <item>State of tension in adaptation mechanisms with tendency to enhancement of stress-realizing systems’ activity. </item>
+        <item>State of expressed stress with possibility of damaging influence on systems and organs by excessive activity of stress-realizing systems. </item>
+    </string-array>
+<string name="stress_full">
+  <![CDATA[
+    <p> Characterization on basis of Baevski’s index of tension (IN).  </p>
+    <ul>
+    <li>If IT<30, there is state of expressed distress with predominance of stress-limiting systems’ activity. </li>
+    <li>If IT=30-60, there is state of compensated distress with tendency to predominance of stress-limiting systems’ activity. </li>
+    <li>If IT=60-120, there is state of eustress (optimum of adaptation from position of physiological regulation). </li>
+    <li>If IT=120-200, there is state of tension in adaptation mechanisms with tendency to enhancement of stress-realizing systems’ activity. </li>
+    <li>If IT>200, there is state of expressed stress with possibility of damaging influence on systems and organs by excessive activity of stress-realizing systems.</li>
+  </ul>
+  ]]>
+</string>
+
+
+    <string-array name="hr_levels">
+        <item> Significant heart rate fall (expressed bradycardia). </item>
+        <item>Moderate heart rate fall (moderate bradycardia).</item>
+        <item> Heart rate frequency is within norm (eusystole).</item>
+        <item> Moderate acceleration of heart rate (moderate tachycardia). </item>
+        <item> Significant acceleration of heart rate (expressed tachycardia). </item>
+    </string-array>
+
+
+
+
+
+
+
+    <string name="tp_title">Adaptability of the organism (TP):</string>
+    <string name="tp_small">Characterized by the absolute value of the total power spectrum. Shows the total amount of energy organism.
+    </string>
+    <string name="mr_title">State regulation mechanisms of physiological functions:</string>
+    <string name="mr_low">Characterized by ranges of absolute values HF, LF, VLF.</string>
+    <string name="balance_title">Balance mechanisms consumption and recovery of energy in the body:</string>
+    <string name="balance_low">Characterized by the ratio LF/HF in the chart.</string>
+    <string name="center_title">Centralization of rhythm control:</string>
+    <string name="center_low">Characterized by an index of centralization(IC). Calculated by the formula IC = (HF + LF) / VLF
+        Reflects a balance between the activity of the segmental and suprasegmental autonomic control circuits.
+    </string>
+    <string name="stress_title">Stress Index:</string>
+    <string name="stress_low">Characterized by the stress index Baevsky (IN).</string>
+    <string name="tp_dlg_title">Adaptability of the organism</string>
+    <string name="mr_dlg_title">State regulation mechanisms of physiological functions</string>
+    <string name="balance_dlg_title">Balance mechanisms consumption and recovery of energy in the body</string>
+    <string name="centr_dlg_title">Centralization of rhythm control</string>
+    <string name="stress_dlg_title">Stress Index</string>
+</resources>

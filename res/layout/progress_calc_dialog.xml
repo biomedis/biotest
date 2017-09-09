@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+android:minWidth="250dp"
+              android:padding="8dp"
+       >
+
+    <TextView android:layout_height="wrap_content"
+              android:layout_width="match_parent"
+              android:text="@string/pmd_sensor_from_finger"
+              android:gravity="center_horizontal"
+              android:id="@+id/may_out_sensor"
+              android:layout_weight="0"
+    />
+
+<FrameLayout android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:id="@+id/progressBarFrame"
+           android:layout_weight="5"
+           android:minWidth="90dp"
+             android:minHeight="65dp"
+        >
+
+    <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_gravity="center"
+            android:src="@drawable/heart"
+
+
+
+
+            />
+
+
+
+</FrameLayout>
+
+    <TextView android:id="@+id/progressInfo"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+
+               android:gravity="center_horizontal"
+               android:padding="7dp"
+
+              android:text=""
+              android:layout_weight="0"
+              />
+
+</LinearLayout>

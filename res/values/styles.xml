@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BiotestTheme" parent="android:Theme.Holo">
+        <item name="android:windowBackground">@color/splash_background</item><!--  фонокна основной -->
+        <item name="android:buttonStyle">@style/GenericButton</item><!--  Стиль кнопок -->
+        <item name="android:textAppearance">@style/BiotestTextAppearance</item><!--  Стиль текста общий, он используется в других стилях -->
+
+
+        <item name="android:actionBarStyle">@style/BiotestActionBarStyle</item><!--  Стиль actionBar -->
+        <item name="android:actionButtonStyle">@style/BiotestActionBarButtonStyle</item><!--  Стиль кнопок actionBar(  те что как меню делаются) -->
+        <item name="android:actionMenuTextColor">@color/actionbar_button_color_text</item><!--  Цвет текста этих кнопок actionButtonStyle-->
+        <item name="android:popupMenuStyle">@style/PopupMenu</item><!--  Стиль выпадающего списка(тут он еще и в actionBar при нажати на троеточее) -->
+        <item name="android:dropDownListViewStyle">@style/DropDownListView</item><!--  Стиль это стиль фона этого выпадающего списка -->
+
+       <item name="android:textAppearanceListItemSmall">@style/BiotestTextAppearanceListItem</item>
+        <item name="android:textAppearanceListItem">@style/BiotestTextAppearanceListItem</item><!--  Стиль это стиль текста списка списка для стандартных шаблонов -->
+        <item name="android:textAppearanceSmall">@style/BiotestTextAppearanceListItem.Small</item><!--  Стиль это стиль текста списка списка для стандартных шаблонов, вторичный(мелкий) -->
+
+        <item name="android:textAppearanceLargePopupMenu"> @style/BiotestPopupMenuTextAppearanceLarge</item><!--  Стиль текста выпадающего меню -->
+        <item name="android:textAppearanceSmallPopupMenu">@style/BiotestPopupMenuTextAppearanceSmall</item><!--  Стиль текста выпадающего меню -->
+        <item name="android:textViewStyle">@style/BiotestTextView</item><!--  Стиль textView -->
+        <item name="android:editTextStyle">@style/BiotestEditText</item><!--  Стиль editTextStyle -->
+        <item name="android:checkboxStyle">@style/BiotestCheckBox</item><!--  Стиль checkboxStyle -->
+        <item name="android:listViewStyle">@style/BiotextListView</item>
+        <item name="android:imageButtonStyle">@style/BiotestImageButton</item>
+
+
+   </style>
+
+   <style name="SlideButton" >
+       <item name="android:background" >@drawable/button_slide_background</item>
+       <item name="android:textColor" >@color/button_slide_text_color</item>
+       <item name="android:textSize">17dp</item>
+       <item name="android:textStyle">normal</item>
+       <item name="android:gravity">center</item>
+       <item name="android:paddingLeft">8dp</item>
+       <item name="android:paddingRight">8dp</item>
+       <item name="android:layout_marginLeft">8dp</item>
+       <item name="android:minHeight">40dp</item>
+       <item name="android:layout_marginBottom">10dp</item>
+   </style>
+
+
+
+   <style name="ActionBarButton" parent="SlideButton">
+
+       <item name="android:background" >@drawable/button_actionbar_background</item>
+       <item name="android:textColor" >@color/actionbar_button_color_text</item>
+       <item name="android:textSize">13sp</item>
+       <item name="android:textStyle">normal</item>
+       <item name="android:gravity">center</item>
+       <item name="android:paddingLeft">8dp</item>
+       <item name="android:paddingRight">8dp</item>
+
+       <item name="android:paddingTop">0dp</item>
+       <item name="android:paddingBottom">0dp</item>
+
+       <item name="android:layout_marginLeft">0dp</item>
+       <item name="android:layout_marginBottom">0dp</item>
+       <item name="android:layout_marginTop">0dp</item>
+       <item name="android:maxHeight">30dp</item>
+   </style>
+
+
+   <style name="GenericButton" parent="SlideButton">
+
+       <item name="android:background" >@drawable/button_generic_background</item>
+       <item name="android:layout_marginLeft">8dp</item>
+       <item name="android:layout_marginRight">8dp</item>
+       <item name="android:layout_marginTop">4dp</item>
+       <item name="android:layout_marginBottom">4dp</item>
+
+
+   </style>
+
+
+   <style name="BiotestActionBarButtonStyle" parent="android:Widget.ActionButton">
+
+       <item name="android:itemBackground" >@color/button_slide_text_color</item>
+
+
+
+   </style>
+
+
+    <style name="BiotestActionBarStyle" parent="android:Widget.ActionBar">
+
+
+
+        <item name="android:background" >@drawable/actionbar_bg</item>
+        <item name="android:divider" >@color/actionbar_button_color_background_pressed</item>
+
+
+
+    </style>
+
+    <style name="PopupMenu" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_stylingactionbar</item>
+    </style>
+
+    <style name="DropDownListView" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_stylingactionbar</item>
+    </style>
+
+    <style name="BiotestPopupMenuTextAppearanceSmall" parent="@android:style/TextAppearance.Holo.Widget.PopupMenu.Small">
+        <item name="android:textColor">@color/actionbar_button_color_text</item>
+    </style>
+
+    <style name="BiotestPopupMenuTextAppearanceLarge" parent="@android:style/TextAppearance.Holo.Widget.PopupMenu.Large">
+        <item name="android:textColor">@color/actionbar_button_color_text</item>
+    </style>
+
+
+    <style name="BiotestTextAppearance" parent="@android:style/TextAppearance">
+
+        <item name="android:textColor">@color/text_color_primary</item>
+        <item name="android:textColorHighlight">@color/slide_button_text_pressed</item>
+        <item name="android:textColorHint">@color/slide_button_text_pressed</item>
+        <item name="android:textColorLink">@color/actionbar_background_line</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+
+    </style>
+
+
+
+
+    <style name="BiotestTextAppearanceListItem" parent="@style/BiotestTextAppearance">
+
+        <item name="android:textColor">@color/ui_white</item>
+        <item name="android:textColorHighlight">@color/ui_white</item>
+        <item name="android:textColorHint">@color/ui_white</item>
+        <item name="android:textColorLink">@color/actionbar_background_line</item>
+
+
+    </style>
+    <style name="BiotestTextAppearanceListItem.Small" parent="@style/BiotestTextAppearanceListItem">
+
+        <item name="android:textColor">@color/ui_grey</item>
+        <item name="android:textColorHighlight">@color/ui_grey</item>
+        <item name="android:textColorHint">@color/ui_grey</item>
+        <item name="android:textColorLink">@color/ui_grey</item>
+        <item name="android:textSize">15sp</item>
+
+    </style>
+
+
+    <style name="BiotestTextAppearance.Large" parent="@style/BiotestTextAppearance">
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="BiotestTextAppearance.Small" parent="@style/BiotestTextAppearance">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+    <style name="BiotestTextView" parent="@android:style/Widget.Holo.TextView">
+        <item name="android:textAppearance">@style/BiotestTextAppearance</item>
+
+    </style>
+
+
+<style name="BiotestImageButton" parent="@android:style/Widget.Holo.ImageButton">
+    <item name="android:background">@drawable/button_slide_background</item>
+    <item name="android:padding">4dp</item>
+</style>
+
+
+    <style name = "BiotestEditText" parent="@android:style/Widget.Holo.EditText">
+
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/widget_edit_text</item>
+        <item name="android:textAppearance">@style/BiotestTextAppearance</item>
+        <item name="android:textColor">@color/ui_white</item>
+
+    </style>
+
+    <style name = "BiotestCheckBox" parent="@android:style/Widget.Holo.CompoundButton.CheckBox">
+
+
+        <item name="android:button">?android:attr/listChoiceIndicatorMultiple</item>
+    </style>
+
+
+    <style name="BiotextListView" parent="@android:style/Widget.Holo.ListView">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:divider">@color/slide_button_background_normal</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:listSelector">@drawable/list_item_selector</item>
+    </style>
+
+
+
+  <!-- Диалоги -->
+
+
+    <style name="BiotestDialog" parent="@android:style/Theme.Holo.Dialog">
+
+        <item name="android:windowTitleStyle">@style/BiotestDialogTitleStyle</item> <!--  Стиль заголовка -->
+        <item name="android:windowBackground">@drawable/dialog_bg_ll</item><!--  фон диалога, у нас 9.patch -->
+        <item name="android:windowIsFloating">true</item><!--  плавающее  -->
+        <item name="android:windowAnimationStyle">@style/BiotestDialogWindowAnimationStyle</item><!-- анимации появления и закрытия окна -->
+        <item name="android:textViewStyle">@style/BiotestTextView </item><!--  -->
+        <item name="android:editTextStyle">@style/BiotestEditText</item><!--   -->
+        <item name="android:checkboxStyle">@style/BiotestCheckBox</item><!-- -->
+        <item name="android:buttonStyle">@style/GenericButton</item><!--  Стиль кнопок -->
+        <item name="android:textAppearance">@style/BiotestTextAppearance</item><!--  Стиль текста общий, он используется в других стилях -->
+        <item name="android:listViewStyle">@style/BiotextListView</item>
+        <item name="android:textAppearanceListItem">@style/BiotestTextAppearanceListItem</item><!--  Стиль это стиль текста списка списка для стандартных шаблонов -->
+        <item name="android:textAppearanceListItemSmall">@style/BiotestTextAppearanceListItem</item>
+        <item name="android:textAppearanceSmall">@style/BiotestTextAppearanceListItem.Small</item><!--  Стиль это стиль текста списка списка для стандартных шаблонов, вторичный(мелкий) -->
+        <item name="android:imageButtonStyle">@style/BiotestImageButton</item>
+    </style>
+
+    <style name="ActionButtonDialog" parent="GenericButton">
+        <item name="android:layout_margin">3dp</item>
+
+
+
+    </style>
+
+
+
+    <style name="BiotestTextAppearance.DialogTitle" parent="@style/BiotestTextAppearance.Large">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/ui_white</item>
+
+    </style>
+
+
+<style name="BiotestDialogTitleStyle" >
+
+    <item name="android:maxLines">1</item>
+    <item name="android:scrollHorizontally">true</item>
+    <item name="android:textAppearance">@style/BiotestTextAppearance.DialogTitle</item>
+
+</style>
+
+
+    <style name="BiotestDialogWindowAnimationStyle" parent="@android:style/Animation.Dialog">
+
+         <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+         <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+
+    </style>
+
+
+
+<!--     88888888888888888888888888888888888                -->
+</resources>

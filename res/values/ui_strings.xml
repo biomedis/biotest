@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Create</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">Save</string>
+    <string name="view">Show</string>
+    <string name="close">Close</string>
+    <string name="start">Start</string>
+    <string name="set">Set</string>
+
+    <!-- Сплеш скрин -->
+    <string name="copyrite"></string>
+    <string name="app_name">BiotestM 2.1</string>
+    <string name="logo_desc_text">Logotype Biomedis </string>
+    <string name="programm_name">BiotestM 2.1</string>
+
+
+
+
+
+
+
+         <!-- Слайд меню -->
+    <string name="sm_measure">Measure</string>
+    <string name="sm_rr">R-R</string>
+    <string name="sm_hist">Histogramm</string>
+    <string name="sm_spectrum">Spectrum</string>
+    <string name="sm_indexes">Indexes</string>
+    <string name="sm_meridians">Meridians</string>
+    <string name="sm_diagnose">Evaluation of state</string>
+
+       <!-- Фрагмент measure-->
+
+    <string name="fm_start">Start</string>
+    <string name="fm_stop">Stop</string>
+    <string name="fm_update_usb">Update status  of USB-sensor </string>
+    <string name="fm_low_signal">Weak signal </string>
+    <string name="fm_biggest_signal">Too high signal </string>
+    <string name="fm_last_time">Time left:</string>
+
+    <!-- Диалог профили-->
+    <string name="dp_profile">Profile:</string>
+    <string name="dp_title">Choice of active profile</string>
+    <string name="dp_desc">Choose active profile</string>
+    <string name="dp_act">The active profile is  </string>
+    <string name="dp_profile_not_set">Profile not set</string>
+    <string name="error_select_profile">Error of profile’s choice!</string>
+    <string name="error_set_profile">Setup of active profile has failed</string>
+
+    <!-- Создание профиля диалог-->
+    <string name="cp_title">Creation of profile </string>
+    <string name="cp_name">Profile:</string>
+    <string name="cp_comment">Comment:</string>
+    <string name="cp_create_btn">Create profile</string>
+    <string name="error_create_profile">Error of profile’s creation! </string>
+    <string name="success_created_profile">Profile is created successfully! </string>
+    <string name="need_fill_all_fields">Profile’s name must be filled in!</string>
+
+
+    <!-- редактирование профиля диалог-->
+    <string name="ep_title">Editing of profile</string>
+    <string name="ep_name">Profile:</string>
+    <string name="ep_comment">Comment:</string>
+    <string name="ep_create_btn">Save </string>
+    <string name="error_get_profile">Error of profile’s extraction!</string>
+    <string name="succes_saved_profile">Profile is saved successfully! </string>
+    <string name="error_saved_profile">Error of profile’s saving! </string>
+    <string name="need_fill_name_profile">Profile’s name must be filled in. </string>
+
+
+    <!-- Окно профили-->
+    <string name="ap_list_profiles">List of profiles:</string>
+    <string name="ap_list_measures">List of measurements:</string>
+    <string name="ap_data_less">There are no sufficient data for creation of indexes’ dynamics. At least 3 measures must present.
+    </string>
+    <string name="ap_delete_profile_question">Delete profile?</string>
+
+    <string name="ap_delete_measure_question">Delete measurement?</string>
+    <string name="ap_delete_measure_description">! Chosen measure will be deleted together with data!</string>
+    <string name="ap_measure_note">Note</string>
+    <string name="error_create_intent_to_call_measure">Creation of intent for launching of MeasureDataActivity.class is failed. </string>
+    <string name="ap_profile_not_selected">Profile is not chosen! </string>
+    <string name="ap_delete_profile_description">All measures of profile with its data will be lost! </string>
+    <string name="ap_measure_success_delete">Measure is deleted successfully! </string>
+    <string name="ap_delete_error">Error has occurred during deleting! </string>
+
+
+    <!-- редактирование изменения диалог-->
+    <string name="em_note">Note for measure:</string>
+    <string name="em_title">Editing measurement</string>
+    <string name="em_error_get_measure">Error of measure’s extraction! </string>
+    <string name="em_measure_success_updated">Measure is edited successfully! </string>
+    <string name="em_error_updated_measure">Error of measure’s saving! </string>
+
+
+    <!-- Динамика -->
+    <string name="id_dm">Diapason of dates: </string>
+    <string name="id_is">Diapason of dates: </string>
+    <string name="id_bak">BAC</string>
+    <string name="id_tp">"General energy"</string>
+    <string name="id_in">Index of tension</string>
+    <string name="id_hr">Average heart rate</string>
+    <string name="id_spectr_param">Parameters of spectrum</string>
+    <string name="id_less_data">Insufficient data for creation of indexes’ dynamics! </string>
+
+
+
+
+
+
+    <!-- Диалог расчета -->
+    <string name="pcd_title">Calculation of pulse measurement’s indexes </string>
+    <string name="sp_desc">Calculation takes place</string>
+
+
+    <!-- Главное окно -->
+    <string name="ma_select_act_profile">Choice of active profile</string>
+    <string name="ma_descr_select_active_profile">Choose active profile </string>
+    <string name="ma_need_selected_active_profile">Choose active profile </string>
+    <string name="ma_close_app_title">Close application?</string>
+    <string name="ma_close_app_desc">The current measurement will be canceled!</string>
+    <string name="ma_create_profile_title">Create measure of chosen file? </string>
+    <string name="ma_path_to_file">Path to file  </string>
+    <string name="ma_error_load_data_from_file">Path to file</string>
+    <string name="ma_measure_success">Measure is finished. Results are being processed. </string>
+    <string name="ma_prepare_data_to_view">Preparing of measure’s results for display on window. </string>
+    <string name="ma_canceled_measure">Measurement cancelled!</string>
+    <string name="ma_measure_ready">Measure is prepared</string>
+    <string name="ma_data_save">Data are saved!</string>
+    <string name="ma_error_save_data">Error of data’s saving!</string>
+    <string name="ma_error_save2">Measure is made with error, data are not saved!</string>
+    <string name="ma_error_save_3">Error of data recording occurred, active profile or massive of data are absent. If problem occur again, contact support service!
+    </string>
+    <string name="id_list_params">List of indexes for display</string>
+    <string name="usb_not_installed">The device is not connected!</string>
+    <string name="ma_cancel_measure_question">Cancel measurement?</string>
+    <string name="ma_start_measure">Start measurement?</string>
+    <string name="ma_start_measure_description">        <![CDATA[Results of previous measures are accessible in archive of measures (Profiles -> profile’s name)]]></string>
+    <string name="ma_not_nistalled_sensor_q">Check whether pulse sensor is connected and try again! </string>
+    <string name="pmd_sensor_from_finger"> You may remove finger from sensor. </string>
+    <string name="pa_view_measure_canceled">View of results is cancelled! </string>
+
+
+    <string name="pa_cacl_completed">Calculation of data is finished. </string>
+    <string name="g_arraygraph_labelx">Number of R-R interval</string>
+    <string name="g_arraygraph_label_y">R-R intervals, x10mc</string>
+    <string name="g_histgraph_labelx">R-R intervals, x10mc</string>
+    <string name="g_histgraph_labely">Frequency of appearing </string>
+    <string name="g_spectrgraph_labelx">Intensity, 100/mc2</string>
+    <string name="g_spectrgraph_labely">Frequency, Hz</string>
+    <string name="g_time">Time</string>
+    <string name="g_bak_dinamic">Graphics of changing in balance of anabolism and catabolism </string>
+    <string name="g_tp">Graphics of changing in level of general energy </string>
+    <string name="g_hr">Graphics of changing in heart rate</string>
+    <string name="g_in">Graphics of changing in index of tension</string>
+    <string name="g_si">Graphics of changing in centralization of rhythm’s control </string>
+    <string name="g_spec">Graphics of changing in spectral constituents of R-R intervals </string>
+
+
+
+
+    <string name="data_picker_title">Setting date </string>
+    <string name="filemanager_error">Отсутствует подходящая программа для выбора файла.</string>
+    <string name="sm_scaterogramm">Correlation rythmogram</string>
+    <string name="dynamics_calc_dlg_title">Calculation of dynamic indexes</string>
+    <string name="dynamic_param_not_selected_toast_message">You must select the query parameters(QUERY PARAMETERS)
+    </string>
+    <string name="sdcard_not_avaliable">The memory card is not available </string>
+    <string name="error_save_to_sd">Unable to write data to the memory card</string>
+    <string name="options_title">Options</string>
+    <string name="default_t">Default</string>
+    <string name="option_low_porog_descr">The lower threshold pulse amplitude:</string>
+    <string name="select_file">Selecting file</string>
+    <string name="select_file_description">Select a data file for measurement.</string>
+    <string name="average_heart_rate">Average heart rate:</string>
+    <string name="IN_abbr">IN =</string>
+    <string name="IS_abbr">IC =</string>
+    <string name="BAK_abbr">BAK =</string>
+    <string name="BE_abbr">BE =</string>
+    <string name="next_full">Read more...</string>
+    <string name="low_freq">Low frequencies LF</string>
+    <string name="very_low_freq">Very low frequencies VLF</string>
+    <string name="hi_freq">Hi frequencies HF</string>
+    <string name="profile_not_find">Profile not selected!</string>
+
+
+</resources>

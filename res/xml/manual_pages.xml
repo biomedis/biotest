@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages base_dir="manuals_eng" image_dir="images">
+    <page menu_name="Introduction" doc_name="start.xhtml"  start_page=""/>
+    <page menu_name="Create Measurement" doc_name="measure.xhtml" description="Правильное проведение измерений"  />
+    <page menu_name="Measurement results" doc_name="results.xhtml" description="Описание вкладок рещультатов измерения и их интерпретации"  />
+    <page menu_name="Working with Profiles" doc_name="profile.xhtml" description="Описывает работу с профилями: создание и т.п." />
+
+
+
+</pages>

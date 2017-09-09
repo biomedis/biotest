@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages base_dir="texts_eng" image_dir="images">
+    <page menu_name="Introductions" doc_name="start.xhtml"  start_page=""/>
+    <page menu_name="Heart rate system of regulation " doc_name="article1.xhtml" description="" />
+    <page menu_name="Cardio intervals graph" doc_name="article2.xhtml" description=""  />
+    <page menu_name="Statistical method for estimation HRV" doc_name="article3.xhtml" description=""  />
+    <page menu_name="Spectral methods for estimation HRV" doc_name="article4.xhtml"  description="" />
+    <page menu_name="Correlation rythmogram" doc_name="article7.xhtml"  description="" />
+    <page menu_name="Anabolic and Catabolic processes" doc_name="article5.xhtml"  description="" />
+</pages>

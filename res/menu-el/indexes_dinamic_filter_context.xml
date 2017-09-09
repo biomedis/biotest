@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Σήμερα"
+          android:id="@+id/today"
+          android:showAsAction="always"
+            />
+    <item android:title="Τελευταίες τρεις ημέρες"
+          android:id="@+id/threeday"
+          android:showAsAction="always"
+            />
+    <item android:title="Προηγούμενη εβδομάδα"
+          android:id="@+id/week"
+          android:showAsAction="always"
+            />
+    <item android:title="Προηγούμενες δύο εβδομάδες"
+          android:id="@+id/twoweek"
+          android:showAsAction="always"
+            />
+    <item android:title="Προηγούμενο μήνα"
+          android:id="@+id/month"
+          android:showAsAction="always"
+            />
+    <item android:title="Προηγούμενοι τρεις μήνες"
+          android:id="@+id/threemonth"
+          android:showAsAction="always"
+            />
+    <item android:title="Προηγούμενοι έξι μήνες"
+          android:id="@+id/sixmonth"
+          android:showAsAction="always"
+            />
+    <item android:title="Προηγούμενο έτος"
+          android:id="@+id/year"
+          android:showAsAction="always"
+            />
+
+    <item android:title="Επιλεγμένη περίοδος"
+          android:id="@+id/custominterval"
+          android:showAsAction="always"
+            />
+</menu>

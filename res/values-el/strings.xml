@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="manuals_items" >
+        <item >Introduction</item>
+        <item >Working with Profiles</item>
+        <item >Create Measurement</item>
+        <item >Measurement results</item>
+        <item >Dynamics of indicators</item>
+    </string-array>
+
+
+
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+
+
+
+</resources>

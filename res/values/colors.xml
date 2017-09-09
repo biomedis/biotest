@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green" >@android:color/holo_green_light</color>
+    <color name="red" >@android:color/holo_red_light</color>
+    <color name="blue" >@android:color/holo_blue_light</color>
+
+    <color name="lf" >#ffcd000c</color>
+    <color name="hf" >#ff0ccd00</color>
+    <color name="vlf" >#ff0001cd</color>
+
+
+
+    <color name="bar_level_1" >#00FD01</color>
+    <color name="bar_level_2" >#42A9FE</color>
+    <color name="bar_level_3" >#0000FE</color>
+    <color name="bar_level_4" >#8A00FE</color>
+    <color name="bar_level_5" >#FD0001</color>
+    <color name="bar_level_6" >#FDEF01</color>
+    <color name="bar_level_7" >#fffdba00</color>
+
+    <color name="green_level_1" >#ffff00</color>
+    <color name="green_level_2" >#ff00a601</color>
+    <color name="green_level_3" >#00FD01</color>
+
+
+    <color name="meridian_bar_level_1" >#0000ff</color>
+    <color name="meridian_bar_level_2" >#42aaff</color>
+    <color name="meridian_bar_level_3" >#00ff00</color>
+    <color name="meridian_bar_level_4" >#ffff00</color>
+    <color name="meridian_bar_level_5" >#ff0000</color>
+
+
+
+
+<color name="activelistViewItem" >@android:color/holo_blue_light</color>
+
+
+</resources>

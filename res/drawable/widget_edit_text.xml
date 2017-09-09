@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_multiline="true" android:state_window_focused="false" android:state_enabled="true" >
+        <layer-list>
+            <item android:left="5dp" android:right="5dp" android:bottom="5dp" android:top="4dp">
+                <shape >
+                    <solid android:color="@color/text_edit_bg"></solid>
+                </shape>
+            </item>
+            <item >
+                <nine-patch android:src="@drawable/textfield_multiline_default_holo_dark"></nine-patch>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_multiline="true" android:state_window_focused="false" android:state_enabled="false"  >
+    <layer-list>
+        <item  android:left="5dp" android:right="5dp" android:bottom="5dp" android:top="4dp">
+            <shape>
+                <solid android:color="@color/text_edit_bg"></solid>
+            </shape>
+        </item>
+        <item >
+            <nine-patch android:src="@drawable/textfield_multiline_disabled_holo_dark"></nine-patch>
+        </item>
+    </layer-list>
+    </item>
+    <item android:state_multiline="true" android:state_enabled="true" android:state_focused="true"  >
+        <layer-list>
+            <item  android:left="5dp" android:right="5dp" android:bottom="5dp" android:top="4dp">
+                <shape>
+                    <solid android:color="@color/text_edit_bg"></solid>
+                </shape>
+            </item>
+            <item >
+                <nine-patch android:src="@drawable/textfield_multiline_activated_holo_dark"></nine-patch>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_multiline="true" android:state_enabled="true" android:state_activated="true"  >
+        <layer-list>
+            <item  android:left="5dp" android:right="5dp" android:bottom="5dp" android:top="4dp">
+                <shape>
+                    <solid android:color="@color/text_edit_bg"></solid>
+                </shape>
+            </item>
+            <item >
+                <nine-patch android:src="@drawable/textfield_multiline_focused_holo_dark"></nine-patch>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_multiline="true" android:state_enabled="true"  >
+        <layer-list>
+            <item  android:left="5dp" android:right="5dp" android:bottom="5dp" android:top="4dp">
+                <shape>
+                    <solid android:color="@color/text_edit_bg"></solid>
+                </shape>
+            </item>
+            <item >
+                <nine-patch android:src="@drawable/textfield_multiline_default_holo_dark"></nine-patch>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_multiline="true" android:state_focused="true"  >
+        <layer-list>
+            <item  android:left="5dp" android:right="5dp" android:bottom="5dp" android:top="4dp">
+                <shape>
+                    <solid android:color="@color/text_edit_bg"></solid>
+                </shape>
+            </item>
+            <item >
+                <nine-patch android:src="@drawable/textfield_multiline_disabled_focused_holo_dark"></nine-patch>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_multiline="true"  >
+        <layer-list>
+            <item  android:left="5dp" android:right="5dp" android:bottom="5dp" android:top="4dp">
+                <shape>
+                    <solid android:color="@color/text_edit_bg"></solid>
+                </shape>
+            </item>
+            <item >
+                <nine-patch android:src="@drawable/textfield_multiline_disabled_holo_dark"></nine-patch>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_window_focused="false" android:state_enabled="true" >
+        <layer-list>
+            <item  android:left="5dp" android:right="5dp" android:bottom="5dp" android:top="4dp">
+                <shape>
+                    <solid android:color="@color/text_edit_bg"></solid>
+                </shape>
+            </item>
+            <item >
+                <nine-patch android:src="@drawable/textfield_default_holo_dark"></nine-patch>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_window_focused="false" android:state_enabled="false" >
+        <layer-list>
+            <item  android:left="5dp" android:right="5dp" android:bottom="5dp" android:top="4dp">
+                <shape>
+                    <solid android:color="@color/text_edit_bg"></solid>
+                </shape>
+            </item>
+            <item >
+                <nine-patch android:src="@drawable/textfield_disabled_holo_dark"></nine-patch>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_enabled="true" android:state_focused="true"  >
+        <layer-list>
+            <item  android:left="5dp" android:right="5dp" android:bottom="5dp" android:top="4dp">
+                <shape>
+                    <solid android:color="@color/text_edit_bg"></solid>
+                </shape>
+            </item>
+            <item >
+                <nine-patch android:src="@drawable/textfield_activated_holo_dark"></nine-patch>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_enabled="true" android:state_activated="true" >
+        <layer-list>
+            <item  android:left="5dp" android:right="5dp" android:bottom="5dp" android:top="4dp">
+                <shape>
+                    <solid android:color="@color/text_edit_bg"></solid>
+                </shape>
+            </item>
+            <item >
+                <nine-patch android:src="@drawable/textfield_focused_holo_dark"></nine-patch>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_enabled="true">
+        <layer-list>
+            <item  android:left="5dp" android:right="5dp" android:bottom="5dp" android:top="4dp">
+                <shape>
+                    <solid android:color="@color/text_edit_bg"></solid>
+                </shape>
+            </item>
+            <item >
+                <nine-patch android:src="@drawable/textfield_default_holo_dark"></nine-patch>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_focused="true"  >
+        <layer-list>
+            <item  android:left="5dp" android:right="5dp" android:bottom="5dp" android:top="4dp">
+                <shape>
+                    <solid android:color="@color/text_edit_bg"></solid>
+                </shape>
+            </item>
+            <item >
+                <nine-patch android:src="@drawable/textfield_disabled_focused_holo_dark"></nine-patch>
+            </item>
+        </layer-list>
+    </item>
+    <item  >
+        <layer-list>
+            <item  android:left="5dp" android:right="5dp" android:bottom="5dp" android:top="4dp">
+                <shape>
+                    <solid android:color="@color/text_edit_bg"></solid>
+                </shape>
+            </item>
+            <item >
+                <nine-patch android:src="@drawable/textfield_disabled_holo_dark"></nine-patch>
+            </item>
+        </layer-list>
+    </item>
+
+
+</selector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages base_dir="texts" image_dir="images">
+    <page menu_name="Введение" doc_name="start.xhtml"  start_page=""/>
+    <page menu_name="Системы регуляции сердечного ритма" doc_name="article1.xhtml" description="" />
+    <page menu_name="Кардиоинтервалограмма" doc_name="article2.xhtml" description=""  />
+    <page menu_name="Статистические методы оценки ВСР" doc_name="article3.xhtml" description=""  />
+    <page menu_name="Спектральные методы оценки ВСР" doc_name="article4.xhtml"  description="" />
+    <page menu_name="Корреляционная ритмограмма (скаттерграмма)" doc_name="article7.xhtml"  description="" />
+    <page menu_name="Анаболические и катаболические процессы" doc_name="article5.xhtml"  description="" />
+</pages>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="testTime">300</integer><!-- время измерения -->
+    <integer name="dataReadPeriodUSB_mc">10</integer><!-- период прихода данных с датчика -->
+    <integer name="drawWindow">512</integer><!-- Окно отрисовки(в смысле окна скользящего в массиве данных), колличество отсчетов -->
+    <integer name="numDrawingElements">3</integer><!--  колличество отсчетов которое накапливается до следующего цикла отрисовки 0 для автоматического определения -->
+</resources>
